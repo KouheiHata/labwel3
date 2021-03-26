@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+/*-----------------------------------------------------------
+Theme Name: LABwel3
+Auther: 株式会社スタンドトゥギャザー
+Description: LABwelのサイトに使用されるWordPressテーマです
+Version: 3.0
+
+-------------------------------------------------------------*/
+/*-------------------------------------------------------------
+
+0.css reset --異なるブラウザでの表示差を無くすための部分
+1.document --各種共通部分
+2.header --ヘッダー
+3.navigation --ナビゲーション
+4.front-page --トップ
+5.index --投稿ページ
+6.page --固定ページ
+.single
+.footer
+
+-------------------------------------------------------------*/
+/*-------------------------------------------------------------
+    0.css reset
+-------------------------------------------------------------*/
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+ol,
+ul,
+form,
+button,
+table,
+tr,
+th,
+td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1.5;
+    font-family: inherit;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+blockquote::before,
+blockquote::after {
+    content: '';
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type=search],
+input[type=text],
+input[type=email],
+input[type=url],
+input[type=button],
+input[type=tel],
+input[type=submit],
+textarea {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+
+iframe {
+    border: none;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+    visibility: hidden;
+}
+/*-------------------------------------------------------------
+    1.共通部分
+-------------------------------------------------------------*/
+
+body {
+    font-size: 18px;
+    font-family: 
+        'Noto Sans JP',
+        "Helvetica Neue",
+        Arial,
+        "Hiragino Kaku Gothic ProN",
+        "Hiragino Sans",
+        Meiryo,
+        sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+a:focus {
+    outline: none;
+}
+
+/* 空白用マージン */
+
+.mt10 {
+  margin-top: 10px;
+}
+
+.mb10 {
+  margin-bottom: 10px;
+}
+
+.mt20 {
+  margin-top: 20px;
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+.mt30 {
+  margin-top: 30px;
+}
+
+.mb30 {
+  margin-bottom: 30px;
+}
+
+.mt40 {
+  margin-top: 40px;
+}
+
+.mb40 {
+  margin-bottom: 40px;
+}
+
+.mt50 {
+  margin-top: 50px;
+}
+
+.mb50 {
+  margin-bottom: 50px;
+}
+
+.mt60 {
+  margin-top: 60px;
+}
+
+.mb60 {
+  margin-bottom: 60px;
+}
+
+.mt70 {
+  margin-top: 70px;
+}
+
+.mb70 {
+  margin-bottom: 70px;
+}
+
+.mt80 {
+  margin-top: 80px;
+}
+
+.mb80 {
+  margin-bottom: 80px;
+}
+
+.mt90 {
+  margin-top: 90px;
+}
+
+.mb90 {
+  margin-bottom: 90px;
+}
+
+.mt100 {
+  margin-top: 100px;
+}
+
+.mb100 {
+  margin-bottom: 100px;
+}
+
+section:nth-child(odd) {
+    background: #eeeeee;
+}
+
+section:nth-child(even) {
+    background: #f6f6f6;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.grid-box {
+    display: grid;
+}
+
+/*-------------------------------------------------------------
+    2.header
+-------------------------------------------------------------*/
+
+
+/*-------------------------------------------------------------
+    3.navigation
+-------------------------------------------------------------*/
+.nav-wrap {
+    width: 100%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+nav {
+    height: 100px;
+    background: #ffffff;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo {
+    width: 200px;
+    font-size: 0;
+}
+
+.nav-top {
+    font-size: 12px;
+    width: calc(50vw / 36 * 30);
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.nav-top > li > a {
+    color: #333333;
+}
+
+.contact-button {
+    font-size: 14px;
+    border: 2px solid #333333;
+    border-radius: 25px;
+    padding: 10px 40px;
+    transition: 0.4s all ease-in-out;
+}
+
+.contact-button:hover {
+    color: #ffffff;
+    background: #333333;
+}
+
+/*-------------------------------------------------------------
+    4.front-page
+-------------------------------------------------------------*/
+
+.f-section {
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.f-section-inner {
+    width: 600px; /* 仮の高さと幅 */
+    height: 700px;
+    padding-top: 40px;
+    background: rgba(255, 255, 255, 1);
+    position: relative;
+}
+
+.f-section-h2 {
+    font-weight: 700;
+    margin-left: 80px;
+}
+
+.h2-large {
+    font-size: 80px;
+    color: rgba(51, 51, 51, 0.1);
+    word-break: keep-all;
+    position: relative;
+    z-index: 2;
+}
+
+
+/*-------------------------------------------------------------
+    5.index
+-------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+    6.page 固定ページ
+-------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+    7.お問い合わせ
+-------------------------------------------------------------*/
+
+/*-------------------------------------------------------------
+    X.footer
+-------------------------------------------------------------*/
+
+.f-footer {
+    padding-top: 160px;
+    padding-bottom: 40px;
+}
+
+.f-footer .flex-box {
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.ultra-gray {
+    color: #939597;
+}
+
+.footer-nav {
+    font-size: 12px;
+    width: calc(50vw / 36 * 26);
+    justify-content: space-between;
+    align-content: center;
+}
+
+.footer-nav > li > a {
+    color: #333333;
+}
