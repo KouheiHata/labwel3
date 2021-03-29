@@ -134,6 +134,8 @@ body {
         Meiryo,
         sans-serif;
     line-height: 1.5;
+    /* ボックスからはみ出た文字や画像を見えなくする */
+    overflow-x: hidden;
 }
 
 a {
@@ -303,7 +305,7 @@ nav {
 /*-------------------------------------------------------------
     4.front-page
 -------------------------------------------------------------*/
-
+/* セクションのスタイル */
 .f-section {
     width: 100%;
     padding-top: 40px;
@@ -314,21 +316,125 @@ nav {
     width: 600px; /* 仮の高さと幅 */
     height: 700px;
     padding-top: 40px;
+    padding-left: 80px;
     background: rgba(255, 255, 255, 1);
     position: relative;
 }
 
+.f-section-inner2 {
+    margin-left: calc(50vw / 36 * 26);
+}
+
+
+/* セクション見出しのスタイル */
 .f-section-h2 {
     font-weight: 700;
-    margin-left: 80px;
+    width: 70vw;
+    position: relative;
+    
 }
 
 .h2-large {
+    font-family: 'Ozwald', sans-serif;
     font-size: 80px;
+    font-weight: 700;
+    width: 70vw;
     color: rgba(51, 51, 51, 0.1);
-    word-break: keep-all;
+    word-break: break-all;
+    letter-spacing: 10px;
+    position: absolute;
+    left: 0;
+    bottom: -20px;
+}
+.h2-small {
+    font-size: 12px;
+    position: absolute;
+    bottom: -10px;
+}
+
+.f-content-p {
+    width: 450px;
+    word-break: break-all;
+}
+
+.f-button {
+    width: 326px;
+    height: 66px;
+}
+
+.f-button > a {
+    color: #ffffff;
+    background: #000000;
+    padding: 20px 100px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1), -5px -5px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.2s all ease-in-out;
+}
+
+.f-button > a:hover {
+    opacity: 0.8;
+}
+
+.f-section-image1 {
+    position: absolute;
+    top: 100px;
+    left: 550px;
+}
+
+.f-section-image2 {
+    position: absolute;
+    top: 100px;
+    right: 550px;
+}
+
+/* 仕事の一覧 */
+.f-work-gallery1 {
+    flex-flow: wrap;
+    flex: 1 1 auto;
+}
+.f-work-gallery1 .flex-item {
+    width: 33.3%;
+}
+.f-work-gallery2 {
+    flex-flow: wrap;
+    flex: 1 1 auto;
+}
+.f-work-gallery2 .flex-item {
+    width: 50%;
+}
+
+.f-work-gallery1 .flex-item,
+.f-work-gallery2 .flex-item {
+    color: #ffffff;
     position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-work-gallery1 .flex-item h3,
+.f-work-gallery2 .flex-item h3 {
+    font-weight: 500;
+    position: absolute;
     z-index: 2;
+}
+
+.gallery-more {
+    font-size: 12px;
+    text-align: center;
+    position:absolute;
+    z-index: 2;
+    bottom: 16px;
+}
+
+.f-work-gallery1 .flex-item img,
+.f-work-gallery2 .flex-item img {
+    filter:brightness(70%);
+}
+
+.f-work-gallery1 .flex-item img a,
+.f-work-gallery2 .flex-item img a {
+    color: #ffffff;
 }
 
 
