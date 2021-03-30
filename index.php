@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Labwel</title>
+    <title>
+        <?php if (is_front_page()) : ?>
+            <?php bloginfo('name'); ?>
+
+        <?php elseif (is_home()) : ?>
+            ブログ｜<?php bloginfo('name'); ?>
+
+        <?php elseif (is_page()) : ?>
+            <?php wp_title(''); ?>｜<?php bloginfo('name'); ?>
+
+        <?php elseif (is_single()) : ?>
+            <?php wp_title(''); ?>｜<?php bloginfo('name'); ?>
+
+        <?php elseif (is_category()) : ?>
+            <?php single_cat_title() ?>の記事一覧｜<?php bloginfo('name'); ?>
+
+        <?php elseif (is_month()) : ?>
+            <?php the_time("Y年m月") ?>の記事一覧｜<?php bloginfo('name'); ?>
+
+        <?php elseif (is_year()) : ?>
+            <?php the_time("Y年") ?>の記事一覧｜<?php bloginfo('name'); ?>
+
+        <?php elseif (is_search()) : ?>
+            検索結果｜<?php bloginfo('name'); ?>
+
+        <?php elseif (is_404()) : ?>
+            ページが見つかりません｜<?php bloginfo('name'); ?>
+
+        <?php else : ?>
+            <?php bloginfo('name'); ?>
+
+        <?php endif; ?>
+    </title>
     <meta name="description" content="株式会社LABwelは福井県敦賀市にある、お仕事を通して自分の存在価値・やる気・新たな能力の発見など、利用者さんの成長に繋がる自立を支援をする会社です。">
     <meta name="keywords" content="labwel, ラボウェル, ラボエル, Labwel, fukui, 福井県, turuga, 敦賀市, 就労継続支援">
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -17,25 +48,23 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-
+        <?php wp_head(); ?>
 </head>
 
-<body ontouchstart>
+<body <?php body_class(); ?> ontouchstart>
 
     <div class="wrapper">
         <!-- wrapper start -->
 
-        <header id="f-header" class="f-header"><!-- header start▼ -->
+        <header id="f-header" class="f-header">
+            <!-- header start▼ -->
             <div class="container-fluid">
                 <div class="row align-content-center">
                     <div class="nav-wrap">
                         <div class="container">
                             <nav class="flex-box">
                                 <h1 class="logo">
-                                    <img src="images/logo.png" alt="">
+                                    <img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABWEL">
                                 </h1>
                                 <ul class="nav-top flex-box">
                                     <li><a href="#">会社情報</a></li>
@@ -47,14 +76,15 @@
                             </nav>
                         </div>
                     </div>
-                    
-                    <img src="images/main-slide1.jpg" alt="メインイメージ｜海岸清掃" loading="lazy">
+
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
                 </div>
             </div>
         </header><!-- header end -->
 
 
-        <main id="f-main" class="f-main"><!-- main start▼ -->
+        <main id="f-main" class="f-main">
+            <!-- main start▼ -->
             <section class="f-section">
                 <div class="container">
                     <div class="f-section-inner">
@@ -66,7 +96,7 @@
                         <p class="f-content-p mt100">やりがいの見つかるA型</p>
                         <p class="f-content-p mt100">バリエーション豊富なお仕事だから、自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
                         <button class="f-button mt100"><a href="#" target="_blank">詳しくはこちら</a></button>
-                        <img src="images/typea-work.jpg" alt="A型｜海岸清掃" class="f-section-image1">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/typea-work.jpg')); ?>" alt="A型｜海岸清掃" loading="lazy" class="f-section-image1">
                     </div>
                 </div>
             </section>
@@ -82,7 +112,7 @@
                         <p class="f-content-p mt100">みんなとお仕事するのが楽しくなる。</p>
                         <p class="f-contenr-p">そんな働きやすい環境と楽しい人間関係づくりこだわりました。</p>
                         <button class="f-button mt100"><a href="#" target="_blank">詳しくはこちら</a></button>
-                        <img src="images/typeb-work.jpg" alt="B型｜寺院清掃" class="f-section-image2">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/typeb-work.jpg')); ?>" alt="B型｜寺院清掃" loading="lazy" class="f-section-image2">
                     </div>
                 </div>
             </section>
@@ -100,7 +130,7 @@
                         <p class="f-content-p mt100">自分の住む場所が見つかる『グループホーム』</p>
                         <p class="f-content-p mt100">住みやすい環境と安心を与えられる家づくりにこだわりました。</p>
                         <button class="f-button mt100"><a href="#" target="_blank">詳しくはこちら</a></button>
-                        <img src="images/grouphome-image.jpg" alt="LIFE Ipppo和久野" class="f-section-image1">
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="LIFE Ipppo和久野" loading="lazy" class="f-section-image1">
                     </div>
                 </div>
             </section>
@@ -116,61 +146,61 @@
                         <div class="flex-item flex-item1">
                             <h3>海岸清掃</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="images/coast-clean1.jpg" alt="海岸清掃"></a>
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" loading="lazy" alt="海岸清掃"></a>
                         </div>
                         <div class="flex-item flex-item2">
                             <h3>戸別収集</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="images/waste-gathering.jpg" alt="戸別収集"></a>
-                            
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" loading="lazy" alt="戸別収集"></a>
+
                         </div>
                         <div class="flex-item flex-item3">
                             <h3>高齢者生活支援</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="images/life-support.jpg" alt="高齢者生活支援"></a>
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/life-support.jpg')); ?>" loading="lazy" alt="高齢者生活支援"></a>
                         </div>
                     </div>
                     <div class="flex-box f-work-gallery2">
                         <div class="flex-item flex-item1">
                             <h3>寺院清掃</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="images/temple-clean.jpg" alt="寺院清掃"></a>
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" loading="lazy" alt="寺院清掃"></a>
                         </div>
                         <div class="flex-item flex-item2">
                             <h3>洗濯・クリーニング</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <img src="images/cleaning.jpg" alt="洗濯・クリーニング">
-                            <a href="#"><img src="images/cleaning.jpg" alt="洗濯・クリーニング"></a>
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/cleaning.jpg')); ?>" loading="lazy" alt="洗濯・クリーニング"></a>
                         </div>
                     </div>
                     <div class="flex-box f-work-gallery1">
                         <div class="flex-item flex-item1">
                             <h3>おぼろ昆布・加工販売</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="images/kelp-selling.jpg" alt="おぼろ昆布・加工販売"></a>
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/kelp-selling.jpg')); ?>" loading="lazy" alt="おぼろ昆布・加工販売"></a>
                         </div>
                         <div class="flex-item flex-item2">
                             <h3>弁当・調理販売</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="images/lunchbox.jpg" alt="弁当・調理販売"></a>
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/lunchbox.jpg')); ?>" loading="lazy" alt="弁当・調理販売"></a>
                         </div>
                         <div class="flex-item flex-item3">
                             <h3>特別清掃</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="images/cleaning2.jpg" alt="特別清掃"></a>
+                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/cleaning2.jpg')); ?>" loading="lazy" alt="特別清掃"></a>
                         </div>
                     </div>
-                    
+
                 </div>
             </section>
         </main><!-- main end -->
 
-        <footer id="f-footer" class="f-footer"><!-- footer start▼ -->
+        <footer id="f-footer" class="f-footer">
+            <!-- footer start▼ -->
             <div class="container">
                 <div class="flex-box mb40">
                     <div class="flex-item">
-                        <img src="images/logo.png" alt="Labwel" class="logo" loading="lazy">
-                        <p><small class="ultra-gray">©&nbsp;Labwel. All Right Reserved.</small></p>                        
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="Labwel" class="logo" loading="lazy">
+                        <p><small class="ultra-gray">©&nbsp;Labwel. All Right Reserved.</small></p>
                     </div>
                     <div class="flex-item">
                         <ul class="flex-box footer-nav">
@@ -188,7 +218,9 @@
 
                         <table class="footer-table">
                             <tbody>
-                                <tr><td>〒&nbsp;914-0131</td></tr>
+                                <tr>
+                                    <td>〒&nbsp;914-0131</td>
+                                </tr>
                                 <tr>
                                     <td>福井県敦賀市公文名&nbsp;51-10-1</td>
                                 </tr>
@@ -201,10 +233,8 @@
                 </div>
             </div>
         </footer><!-- footer end -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     </div><!-- wrapper end -->
+    <?php wp_footer(); ?>
 </body>
 
 </html>
