@@ -115,33 +115,49 @@
                     <div class="flex-box f-work-gallery1 mt100">
                         <div class="flex-item flex-item1">
                             <h3>海岸清掃</h3>
-                            <p class="gallery-more">READ MORE>></p>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
                             <a href="#"><img src="images/coast-clean1.jpg" alt="海岸清掃"></a>
                         </div>
                         <div class="flex-item flex-item2">
-                            <img src="images/waste-gathering.jpg" alt="戸別収集">
+                            <h3>戸別収集</h3>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
+                            <a href="#"><img src="images/waste-gathering.jpg" alt="戸別収集"></a>
+                            
                         </div>
                         <div class="flex-item flex-item3">
-                            <img src="images/life-support.jpg" alt="高齢者生活支援">
+                            <h3>高齢者生活支援</h3>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
+                            <a href="#"><img src="images/life-support.jpg" alt="高齢者生活支援"></a>
                         </div>
                     </div>
                     <div class="flex-box f-work-gallery2">
                         <div class="flex-item flex-item1">
-                            <img src="images/temple-clean.jpg" alt="寺院清掃">
+                            <h3>寺院清掃</h3>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
+                            <a href="#"><img src="images/temple-clean.jpg" alt="寺院清掃"></a>
                         </div>
                         <div class="flex-item flex-item2">
+                            <h3>洗濯・クリーニング</h3>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
                             <img src="images/cleaning.jpg" alt="洗濯・クリーニング">
+                            <a href="#"><img src="images/cleaning.jpg" alt="洗濯・クリーニング"></a>
                         </div>
                     </div>
                     <div class="flex-box f-work-gallery1">
                         <div class="flex-item flex-item1">
-                            <img src="images/kelp-selling.jpg" alt="おぼろ昆布・加工販売">
+                            <h3>おぼろ昆布・加工販売</h3>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
+                            <a href="#"><img src="images/kelp-selling.jpg" alt="おぼろ昆布・加工販売"></a>
                         </div>
                         <div class="flex-item flex-item2">
-                            <img src="images/lunchbox.jpg" alt="弁当・調理販売">
+                            <h3>弁当・調理販売</h3>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
+                            <a href="#"><img src="images/lunchbox.jpg" alt="弁当・調理販売"></a>
                         </div>
                         <div class="flex-item flex-item3">
-                            <img src="images/cleaning2.jpg" alt="特別清掃">
+                            <h3>特別清掃</h3>
+                            <p class="gallery-more">READ MORE&nbsp;>></p>
+                            <a href="#"><img src="images/cleaning2.jpg" alt="特別清掃"></a>
                         </div>
                     </div>
                     

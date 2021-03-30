@@ -285,6 +285,7 @@ nav {
     align-items: center;
 }
 
+
 .nav-top > li > a {
     color: #333333;
 }
@@ -299,13 +300,20 @@ nav {
 
 .contact-button:hover {
     color: #ffffff;
-    background: #333333;
+    background-color: #333333;
 }
 
 /*-------------------------------------------------------------
     4.front-page
 -------------------------------------------------------------*/
-/* セクションのスタイル */
+
+
+section:last-child {
+    padding-bottom: 150px;
+}
+
+/* フロントページのセクションのスタイル */
+
 .f-section {
     width: 100%;
     padding-top: 40px;
@@ -412,6 +420,11 @@ nav {
     align-items: center;
 }
 
+.f-work-gallery1 .flex-item:hover,
+.f-work-gallery2 .flex-item:hover {
+    opacity: 0.8;
+} 
+
 .f-work-gallery1 .flex-item h3,
 .f-work-gallery2 .flex-item h3 {
     font-weight: 500;
@@ -472,10 +485,27 @@ nav {
 .footer-nav {
     font-size: 12px;
     width: calc(50vw / 36 * 26);
-    justify-content: space-between;
-    align-content: center;
 }
 
 .footer-nav > li > a {
     color: #333333;
+    position: relative;
+}
+
+.footer-nav > li > a::after {
+    display: block;
+    content: '';
+    width: 120%;
+    height: 1px;
+    background: #333333;
+    position: absolute;
+    bottom: -4px;
+    left: -10%;
+    transform: scale(0, 1);
+    transform-origin: left top;
+    transition: transform 0.4s;
+}
+
+.footer-nav > li > a:hover::after {
+    transform: scale(1, 1);
 }
