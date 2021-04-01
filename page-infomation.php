@@ -31,7 +31,7 @@ get_header(); ?>
             </h2>
         </div>
 
-        <img src="<?php echo esc_url(get_theme_file_uri('images/walking-forest.jpg')); ?>" alt="" class="mt50">
+        <img src="<?php echo esc_url(get_theme_file_uri('images/walking-forest.jpg')); ?>" alt="" class="mt50" loading="lazy">
         <div class="container">
             <div class="row">
                 <div class="col-12 justify-content-center mt100">
@@ -89,21 +89,46 @@ get_header(); ?>
     <section class="section">
 
         <div class="container">
-            <h2 title class="page-article-title">
+            <h2 title class="page-article-title mb100">
                 経営理念<br>
-                <span class="suffix">mission</span>
+                <span class="suffix">Mission</span>
             </h2>
             <h3 class="description-heading">
-                お客様の満足に貢献し、障がい者の満足を追求し、<br>地域社会に貢献する。
+                お客様の満足に貢献し、障がい者の満足を追求し、地域社会に貢献する。
             </h3>
         </div>
 
-        <img src="<?php echo esc_url(get_theme_file_uri('images/gathering-photo.jpg')); ?>" alt="" class="mt100">
+        <img src="<?php echo esc_url(get_theme_file_uri('images/gathering-photo.jpg')); ?>" alt="" class="mt100" loading="lazy">
     </section>
 
-
-
-
+    <section class="section">
+        <div class="container">
+            <h2 class="page-article-title">
+                これまでの沿革<br>
+                <span class="suffix">History</span>
+            </h2>
+            <div class="flex-box description-table">
+                <div class="flex-item">
+                    <table class="info-table">
+                        <tbody>
+                            <tr>
+                                <td>平成28年7月</td>
+                                <td>株式会社　LABwel　設立</td>
+                            </tr>
+                            <tr>
+                                <td>同年</td>
+                                <td>事業所　+ipppo　設立</td>
+                            </tr>
+                            <tr>
+                                <td>令和元年</td>
+                                <td>事業所　+ipppoにてB型事業所開始</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </main><!-- main end -->
 

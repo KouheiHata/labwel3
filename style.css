@@ -235,6 +235,13 @@ a:focus {
 .mb100 {
   margin-bottom: 100px;
 }
+.ml100 {
+    margin-left: 100px;
+}
+
+.ultra-gray {
+    color: #939597;
+}
 
 section:nth-child(odd) {
     background: #eeeeee;
@@ -297,12 +304,12 @@ nav {
 .header-menu-item::after {
     content:'';
     display: block;
-    width: 120%;
+    width: 100%;
     height: 2px;
     background: #333333;
     position: absolute;
     top: 1.75em;
-    left: -10%;
+    left: 0%;
     transform: scale(0, 1);
     transform-origin: left top;
     transition: transform 0.4s;
@@ -490,6 +497,8 @@ section:last-child {
     padding-bottom: 150px;
 }
 
+/* 会社情報のスタイル */
+
 .page-title {
     font-weight: 700;
     position: relative;
@@ -502,7 +511,7 @@ section:last-child {
     bottom: -10px;
 }
 
-h3.description-heading {
+.description-heading {
     font-weight: 700;
     width: 80%;
     margin: 0 auto;
@@ -515,21 +524,22 @@ h3.description-heading {
 }
 .page-article-title::after {
     content: '';
-    width: 70px;
+    width: calc(100px + 25%);
     height: 2px;
     background: #333333;
     position: absolute;
     top: 0.75em;
-    left: 126%;
+    left: calc(100% + 50px);
 }
 
 .description-table {
     width: 100%;
     margin-top: 50px;
-    column-gap: 40px;
+    column-gap: 4%;
+    justify-content: space-around;
 }
 .description-table .flex-item {
-    width: 45%;
+    width: 48%;
 }
 
 .info-table {
@@ -560,7 +570,56 @@ h3.description-heading {
     border-bottom: 1px solid #939597;
 }
 
+/* 事業所のご案内のスタイル */
 
+.section-boxleft {
+    width: 580px;
+    padding-top: 50px;
+    padding-right: 40px;
+    padding-bottom: 100px;
+    float: left;
+}
+
+.section-boxright {
+    width: calc(100% - 580px);
+    float: right;
+}
+
+.section-boxright img {
+    width: 700px;
+    position:absolute;
+}
+
+
+/* サービス利用までの流れ*/
+.side-scroll-content {
+    /* height: 700px; */
+    background-color: #ffffff;
+    overflow-x: auto;
+    white-space: nowrap;
+    /* -webkit-overflow-scrolling: touch; */
+}
+
+.scroll-content-card {
+    display: inline-block;
+    color: #ffffff;
+    background-color: #333333;
+    width: 400px;
+    height: 700px;
+    padding-top: 1.5rem;
+}
+
+.content-card-title {
+    margin-left: 20px;
+}
+
+.card-content-inner {
+    width: 20em;
+    margin: 40px auto auto;
+}
+.card-content-inner p {
+    white-space: normal;
+}
 
 
 /*-------------------------------------------------------------
@@ -582,10 +641,6 @@ h3.description-heading {
     align-items: center;
 }
 
-.ultra-gray {
-    color: #939597;
-}
-
 .footer-nav {
     font-size: 12px;
     width: calc(50vw / 36 * 26);
@@ -599,12 +654,12 @@ h3.description-heading {
 .footer-nav > li > a::after {
     display: block;
     content: '';
-    width: 120%;
+    width: 100%;
     height: 2px;
     background: #333333;
     position: absolute;
     bottom: -4px;
-    left: -10%;
+    left: 0%;
     transform: scale(0, 1);
     transform-origin: left top;
     transition: transform 0.4s;
