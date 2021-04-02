@@ -38,46 +38,210 @@ get_header(); ?>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
             </div>
             <div class="clearfix"></div>
+
             <h2 class="page-article-title mt100">サービス利用開始までの流れ</h2>
+        </div>
 
-            <ul class="side-scroll-content mt40">
-                <li class="scroll-content-card">
-                    <p title class="content-card-title">1.ハローワークからの紹介</p>
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
-                    <div class="card-content-inner">
-                        <p description>ハローワークで紹介状をもらい、面接の日程を調整してもらいます。
-                        </p>
-                        <p description>※面接の前に見学をしてもらうことも可能です。</p>
-                    </div>
-                </li>
-                <li class="scroll-content-card">
-                    <p title class="content-card-title">2.事業所との面接</p>
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/exam2.jpg')); ?>" alt="" loading="lazy">
-                    <div class="card-content-inner">
-                        <p description>面接を行います。アセスメントの日程調整も行います。</p>
-                        <p description>持ち物として履歴書、紹介状、医師の診断書が必要になります。</p>
-                    </div>
-                </li>
-                <li class="scroll-content-card">
-                    <p title class="content-card-title">3.事業所でのアセスメント</p>
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/exam3.jpg')); ?>" alt="" loading="lazy">
-                    <div class="card-content-inner">
-                        <p description>職場を体験していただきます。</p>
-                        <p description>なおこの期間は賃金は発生いたしません。</p>
-                    </div>
-                </li>
-                <li class="scroll-content-card">
-                    <p title class="content-card-title">4.採用通知および、ご利用手続き</p>
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
-                    <div class="card-content-inner">
-                        <p description>採用通知が届いた場合、各市町や、相談支援事業所などと連絡を取り、受給者証発行の 手続きを行ないます。</p>
-                    </div>
-                </li>
-            </ul>
-
+        <ul class="side-scroll-content mt40">
+            <li class="scroll-content-card">
+                <p class="content-card-title">1.ハローワークからの紹介</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p>ハローワークで紹介状をもらい、面接の日程を調整してもらいます。
+                    </p>
+                    <p>※面接の前に見学をしてもらうことも可能です。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+                <p title class="content-card-title">2.事業所との面接</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam2.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p description>面接を行います。アセスメントの日程調整も行います。</p>
+                    <p description>持ち物として履歴書、紹介状、医師の診断書が必要になります。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+                <p title class="content-card-title">3.事業所でのアセスメント</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam3.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p description>職場を体験していただきます。</p>
+                    <p description>なおこの期間は賃金は発生いたしません。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+                <p title class="content-card-title">4.採用通知および、ご利用手続き</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p description>採用通知が届いた場合、各市町や、相談支援事業所などと連絡を取り、受給者証発行の 手続きを行ないます。</p>
+                </div>
+            </li>
+        </ul>
+        <div class="container">
+            <h2 class="page-article-title mt100">所在地・連絡先</h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <table class="office-address mt50">
+                        <thead>
+                            <tr>
+                                <th>本社/Ipppo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>住所</td>
+                                <td>福井県敦賀市公文名54-10-1</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6526</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-5024 （そうじ部）</td>
+                            </tr>
+                            <tr>
+                                <td>FAX</td>
+                                <td>0770-47-6527</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.5471168521503!2d136.05110441525704!3d35.614236480209975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e55444fbdf73%3A0xe95b2cb616ba3505!2z44CSOTE0LTAxMzEg56aP5LqV55yM5pWm6LOA5biC5YWs5paH5ZCN77yV77yU!5e0!3m2!1sja!2sjp!4v1617330630976!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <table class="office-address mt50">
+                        <thead>
+                            <tr>
+                                <th>+Ipppo</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>住所</td>
+                                <td>福井県敦賀市野神2-34-2</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6979</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6984</td>
+                            </tr>
+                            <tr>
+                                <td>　</td>
+                                <td>　</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.729710679572!2d136.05291601525752!3d35.63438928020527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e5335f98bff7%3A0x1b4a37e74ad48a02!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yS!5e0!3m2!1sja!2sjp!4v1617330719708!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                </div>
+            </div>
         </div>
     </section>
-    <section class="section"></section>
+    <section class="section">
+        <div class="container">
+            <h2 class="f-section-h2">
+                B型事業所
+                <span class="h2-large">Type B Welfare</span>
+            </h2>
+            <div class="section-boxleft">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/b-copy_07.png')); ?>" alt="自分の居場所が見つかる「B型」" loading="lazy" class="mt50">
+                <p class="mt50">みんなと働くのが楽しくなる</p>
+                <p>そんな働きやすい環境と楽しい人間関係づくりにこだわりました。</p>
+            </div>
+            <div class="section-boxright">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
+            </div>
+            <div class="clearfix"></div>
+            <h2 class="page-article-title mt100">サービス利用開始までの流れ</h2>
+        </div>
+        <ul class="side-scroll-content mt40">
+            <li class="scroll-content-card">
+                <p class="content-card-title">1.事務所へのご見学</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p>事務所へ来ていただき、実際の仕事の内容や雰囲気を見学していただきます。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+                <p class="content-card-title">2.事業所での体験</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam3.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p>見学をした後、実際に事業所でお仕事を体験し、その後に利用申込みを行っていただきます。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+                <p class="content-card-title">3.関係各所へのご利用手続き</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p>各市町や、相談支援事業者などと連絡を取り、受給者証発行の手続きを行なってから事業所の利用を始めます。</p>
+                </div>
+            </li>
+        </ul>
+        <div class="container">
+            <h2 class="page-article-title mt100">
+                所在地・連絡先
+            </h2>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <table class="office-address mt50">
+                        <thead><tr>
+                            <th>+Ipppo</th>
+                        </tr></thead>
+                        <tbody>
+                            <tr>
+                                <td>住所</td>
+                                <td>福井県敦賀市野神2-34-2</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6979</td>
+                            </tr>
+                            <tr>
+                                <td>FAX</td>
+                                <td>0770-47-6984</td>
+                            </tr>
+                            <tr>
+                                <td>　</td>
+                                <td>　</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.729710679572!2d136.05291601525752!3d35.63438928020527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e5335f98bff7%3A0x1b4a37e74ad48a02!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yS!5e0!3m2!1sja!2sjp!4v1617330719708!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                    <table class="office-address mt50">
+                        <thead>
+                            <tr>
+                                <th>Be Ipppo!</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>住所</td>
+                                <td>福井県敦賀市野神15-4-13</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6979</td>
+                            </tr>
+                            <tr>
+                                <td>FAX</td>
+                                <td>0770-47-6984</td>
+                            </tr>
+                            <tr>
+                                <td>　</td>
+                                <td>　</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.694787329481!2d136.05560401525747!3d35.635250080205005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001facb6eccd6fb%3A0xb400c77583c41e2a!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yR77yV4oiS77yU4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1617340618270!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                </div>
+            </div>
+        </div>
+
+    </section>
     <section class="section"></section>
 
 </main><!-- main end -->
