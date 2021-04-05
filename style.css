@@ -579,6 +579,7 @@ section:last-child {
 
 .section-boxleft {
     width: 580px;
+    min-height: 70vh;
     padding-top: 50px;
     padding-right: 40px;
     padding-bottom: 100px;
@@ -603,6 +604,19 @@ section:last-child {
     background-color: #ffffff;
     overflow: auto;
     white-space: nowrap;
+}
+
+.side-scroll-content::-webkit-scrollbar {
+    height: 6px;
+}
+
+.side-scroll-content::-webkit-scrollbar-thumb {
+    background: #939597;
+    border-radius: 2px;
+}
+
+.side-scroll-content::-webkit-scrollbar-track {
+    background: #e2f1fc;
 }
 
 .scroll-content-card {
@@ -639,6 +653,62 @@ section:last-child {
 }
 .office-address td {
     padding: 3px 0;
+}
+
+/*--------------
+ 事業一覧ページ 
+ --------------*/
+
+.service-index {
+    justify-content: space-between;
+    align-self: center;
+    grid-template-columns: repeat(4, 220px);
+    grid-template-rows: repeat(2, 100px);
+    grid-row-gap: 1rem;
+}
+
+.index-btn a {
+    display: block;
+    color: #333333;
+    background: #ffffff;
+    width: 220px;
+    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 1px solid #333333;
+    position: relative;
+    transition: 0.4s all ease-in-out;
+}
+
+.index-btn a:hover {
+    color: #ffffff;
+    background: #333333;
+}
+
+.index-btn a::after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 10px solid #333333;
+    border-left: 6px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    top: 66%;
+    left: 48%;
+    transition: 0.4s all ease-in-out;
+}
+
+.index-btn a:hover::after {
+    border-top: 10px solid #ffffff;
+    border-left: 6px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 6px solid transparent;
+}
+
+.works-header {
+    color: #ffffff;
+    background: #333333;
 }
 
 

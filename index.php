@@ -15,7 +15,7 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('images/typea-work.jpg')); ?>" alt="A型｜海岸清掃" loading="lazy" class="f-section-image1">
                     </div>
                 </div>
-            </section>
+            </section><!-- 第一セクション終了 -->
             <section class="f-section">
                 <div class="container">
                     <div class="f-section-inner f-section-inner2">
@@ -31,7 +31,7 @@
                         <img src="<?php echo esc_url(get_theme_file_uri('images/typeb-work.jpg')); ?>" alt="B型｜寺院清掃" loading="lazy" class="f-section-image2">
                     </div>
                 </div>
-            </section>
+            </section><!-- 第2セクション終了 -->
             <section class="f-section">
                 <div class="container">
                     <div class="f-section-inner">
@@ -50,7 +50,7 @@
                     </div>
                 </div>
             </section>
-            <section class="f-section">
+            <section class="f-section"><!-- 第３セクション -->
                 <div class="container">
                     <h2 class="f-section-h2">
                         お仕事の一覧<br>
@@ -107,6 +107,6 @@
                     </div>
 
                 </div>
-            </section>
+            </section><!-- 第３セクション終了 -->
         </main><!-- main end -->
     <?php get_footer(); ?>

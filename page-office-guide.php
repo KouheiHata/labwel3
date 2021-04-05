@@ -22,7 +22,7 @@ get_header(); ?>
     <?php endif; // 条件分岐終了 
     ?>
 
-    <section class="section">
+    <section class="section"><!-- A型紹介セクション -->
         <div class="container">
             <h2 class="f-section-h2">
                 A型事業所
@@ -39,7 +39,10 @@ get_header(); ?>
             </div>
             <div class="clearfix"></div>
 
-            <h2 class="page-article-title mt100">サービス利用開始までの流れ</h2>
+            <h2 class="page-article-title mt100">
+                サービス利用開始までの流れ<br>
+                <span class="h2-small">※横にスクロールします。</span>
+            </h2>
         </div>
 
         <ul class="side-scroll-content mt40">
@@ -137,7 +140,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-    </section>
+    </section><!-- A型紹介　終了 -->
     <section class="section">
         <div class="container">
             <h2 class="f-section-h2">
@@ -242,7 +245,69 @@ get_header(); ?>
         </div>
 
     </section>
-    <section class="section"></section>
+    <section class="section">
+        <div class="container">
+            <h2 class="f-section-h2">
+                共同生活援助（グループホーム）
+                <span class="h2-large">Group Home</span>
+            </h2>
+            <h2 class="f-section-h2">LIFE Ipppo!和久野</h2>
+            <div class="section-boxleft">
+                <p class="mt100">警備セキュリティをはじめ、夜間支援員などの安心して住むことが出来る環境づくりを目指しました。</p>
+            </div>
+            <div class="section-boxright">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="" loading="lazy">
+            </div>
+            <div class="clearfix"></div>
+            <h2 class="page-article-title mt100">サービス利用開始までの流れ</h2>
+        </div>
+        <ul class="side-scroll-content mt40">
+            <li class="scroll-content-card">
+                <p class="content-card-title">1.グループホームへのご見学</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p>窓口に連絡を入れてもらい、ご都合の良いの良い日時に見学、または入居相談に来て頂きます。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+                <p class="content-card-title">2.ご入居の相談</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam2.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p>入居相談を通して入居するための要件や入居後の生活設計を一緒に考えていきます。</p>
+                </div>
+            </li>
+            <li class="scroll-content-card">
+                <p class="content-card-title">3.関係各所へのご利用手続き</p>
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
+                <div class="card-content-inner">
+                    <p>各市町や、相談支援事業者などと連絡を取り受給者証発行の手続きを行います。</p>
+                </div>
+            </li>
+        </ul>
+        <div class="container">
+            <h2 class="page-article-title mt100">所在地・連絡先</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                    <table class="office-address mt50">
+                        <thead>
+                            <tr><td>LIFE Ipppo!和久野</td></tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>住所</td>
+                                <td>福井県敦賀市和久野2号東河原17-3</td>
+                            </tr>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6964</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.1074957452456!2d136.06029611525722!3d35.62507638020739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001fab1e87425fd%3A0x23b2a51bd662539c!2z44CSOTE0LTAxMjMg56aP5LqV55yM5pWm6LOA5biC5ZKM5LmF6YeO77yS!5e0!3m2!1sja!2sjp!4v1617595443945!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
 
 </main><!-- main end -->
 

@@ -1,12 +1,16 @@
-// 横スクロール用
-$(function(){
-    // マウスホイールで横スクロール処理
-    var moving;
-    var speed = 30;
-    $('.side-scroll-content').mousewheel(function(event, mov) {
-        // スクロール後の位置の算出
-        var moving = $(this).scrollLeft() - mov * speed;
-        $(this).scrollLeft(moving);
-        return false;
-    });
+//横にスクロールする要素をマウスホイールで動かせるようにするJavaScript
+$.fn.mycus_hScroll = function (amount) {
+	amount = amount || 120;
+	$(this).bind("DOMMouseScroll mousewheel", function (event) {
+		var oEvent = event.originalEvent, 
+		direction = oEvent.detail ? oEvent.detail * -amount : oEvent.wheelDelta, 
+		position = $(this).scrollLeft();
+		position += direction > 0 ? -amount : amount;
+		$(this).scrollLeft(position);
+		event.preventDefault();
+	})
+};
+
+$(function() {
+	$('.side-scroll-content').mycus_hScroll(60); // カッコ内の数字でスクロール量を調節できます。
 });
