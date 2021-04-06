@@ -57,7 +57,7 @@ get_header(); ?>
             </li>
             <li class="scroll-content-card">
                 <p title class="content-card-title">2.事業所との面接</p>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/exam2.jpg')); ?>" alt="" loading="lazy">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam5.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
                     <p description>面接を行います。アセスメントの日程調整も行います。</p>
                     <p description>持ち物として履歴書、紹介状、医師の診断書が必要になります。</p>
@@ -271,7 +271,7 @@ get_header(); ?>
             </li>
             <li class="scroll-content-card">
                 <p class="content-card-title">2.ご入居の相談</p>
-                <img src="<?php echo esc_url(get_theme_file_uri('images/exam2.jpg')); ?>" alt="" loading="lazy">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/exam5.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
                     <p>入居相談を通して入居するための要件や入居後の生活設計を一緒に考えていきます。</p>
                 </div>

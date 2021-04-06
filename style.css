@@ -266,10 +266,44 @@ section:nth-child(even) {
     display: grid;
 }
 
+
+/* jquery */
+.fadein {
+    transition: 0.8s;
+    transform: translate(0, 50px);
+    opacity: 0;
+}
+
+.fadein.scrollin {
+    opacity: 1;
+    transform:translate(0, 0);
+}
+
 /*-------------------------------------------------------------
     2.header
 -------------------------------------------------------------*/
+.angle-wrap {
+    margin: 0 auto;
+    width: 200px;
+    position: relative;
+}
 
+.angle {
+    height: 40px;
+    width: 40px;
+    border-left: 2px solid #333333;
+    border-bottom: 2px solid #333333;
+    position: absolute;
+    bottom: 100px;
+    left: 40%;
+    transform: rotate(-45deg);
+}
+
+.angle-wrap p {
+    position: absolute;
+    bottom: 106px;
+    left: 42%;
+}
 
 /*-------------------------------------------------------------
     3.navigation
