@@ -406,7 +406,8 @@ section:last-child {
     height: 66px;
 }
 
-.f-button > a {
+.f-button > a,
+.f-contact {
     color: #ffffff;
     background: #000000;
     padding: 20px 100px;
