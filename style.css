@@ -743,9 +743,21 @@ section:last-child {
 .works-header {
     color: #ffffff;
     background: #333333;
+    height: 372px;
+    padding-top: 100px;
 }
-
-
+.works-gallery {
+    padding-bottom: 150px;
+}
+.flex-item-img {
+    max-width: 700px;
+    margin-top: -100px;
+}
+.flex-item-text {
+    max-width: 400px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
 /*-------------------------------------------------------------
     7.お問い合わせ
 -------------------------------------------------------------*/

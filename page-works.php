@@ -30,16 +30,16 @@ get_header(); ?>
             </h2>
             <div class="grid-box service-index mt100">
                 <div class="box-item box-item1">
-                    <button class="index-btn"><a href="#">海岸清掃</a></button>
+                    <button class="index-btn"><a href="#coast-cleaning">海岸清掃</a></button>
                 </div>
                 <div class="box-item box-item2">
-                    <button class="index-btn"><a href="#">戸別収集</a></button>
+                    <button class="index-btn"><a href="#waste-gathering">戸別収集</a></button>
                 </div>
                 <div class="box-item box-item3">
-                    <button class="index-btn"><a href="#">高齢者生活支援</a></button>
+                    <button class="index-btn"><a href="#life-support">高齢者生活支援</a></button>
                 </div>
                 <div class="box-item box-item4">
-                    <button class="index-btn"><a href="#">寺院清掃</a></button>
+                    <button class="index-btn"><a href="#temple-clean">寺院清掃</a></button>
                 </div>
                 <div class="box-item box-item5">
                     <button class="index-btn"><a href="#">清掃・クリーニング</a></button>
@@ -60,21 +60,59 @@ get_header(); ?>
     <section class="section-works">
         <header class="works-header">
             <div class="container">
-                <h2 class="works-heading">海岸清掃</h2>
+                <h2 class="works-heading" id="coast-cleaning">海岸清掃</h2>
                 <small>COAST CLEANING</small>
             </div>
-
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item1">
+            <div class="flex-item flex-item-img">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" alt="" loading="lazy">
             </div>
-            <div class="flex-item flex-item2">
-                
+            <div class="flex-item flex-item-text">
+                <p>敦賀市認可のもと年間を通して車浦地田を中心に海岸清掃をしております。<br><br>廃プラスチックなどの海外からの漂着物を回収し、武生環境清掃センターへ搬出しております。</p>
             </div>
         </div>
-        <div class="flex-box">
-
+        <header class="works-header">
+            <div class="container">
+                <h2 class="works-heading" id="waste-gathering">戸別収集</h2>
+                <small>WASTE GATHERING</small>
+            </div>
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item-text">
+                <p>一般廃棄物収集・運搬許可を敦賀市よりいただきご家庭の不用品や、粗大ゴミの分別、回収を行っています。</p>
+            </div>
+            <div class="flex-item flex-item-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" alt="" loading="lazy">
+            </div>
+        </div>
+        <header class="works-header">
+            <div class="container">
+                <h2 class="works-heading" id="life-support">高齢者生活支援</h2>
+                <small>LIFE SUPPORT</small>
+            </div>
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/life-support.jpg')); ?>" alt="" loading="lazy">
+            </div>
+            <div class="flex-item flex-item-text">
+                <p>高齢者の生活支援として、お家のお掃除、お庭の草むしり、朝のゴミ出し（回収）を行っております。</p>
+            </div>
+        </div>
+        <header class="works-header">
+            <div class="container">
+                <h2 class="works-heading" id="temple-clean">寺院清掃</h2>
+                <small>TEMPLE CLEANING</small>
+            </div>
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item-text">
+                <p>国指定重要文化財「西福寺」や１３９５年開創の由緒と歴史的伝統ある「永平寺」の寺内外の定期清掃を行っております。</p>
+            </div>
+            <div class="flex-item flex-item-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" alt="" loading="lazy">
+            </div>
         </div>
     </section>
 
