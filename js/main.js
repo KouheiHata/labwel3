@@ -26,3 +26,12 @@ $(window).scroll(function(){
 		}
 	});
 });
+
+// 揺らすアニメーション
+// $(function(){
+// 	$('.angle').yurayura({
+// 		'move' : 5,
+// 		'delay' : 100,
+// 		'duration' : 1000
+// 	});
+// });
