@@ -22,7 +22,7 @@ get_header(); ?>
     <?php endif; // 条件分岐終了 
     ?>
 
-    <section class="section">
+    <section class="section"><!-- 第一セクション -->
 
         <div class="container">
             <h2 title class="page-title">
@@ -85,8 +85,8 @@ get_header(); ?>
             </div>
         </div>
 
-    </section>
-    <section class="section">
+    </section><!-- 第一セクション　終了 -->
+    <section class="section"><!-- 第二セクション -->
 
         <div class="container">
             <h2 title class="page-article-title mb100">
@@ -99,9 +99,9 @@ get_header(); ?>
         </div>
 
         <img src="<?php echo esc_url(get_theme_file_uri('images/gathering-photo.jpg')); ?>" alt="" class="mt100" loading="lazy">
-    </section>
+    </section><!-- 第２セクション　終了 -->
 
-    <section class="section">
+    <section class="section"><!-- 第3セクション -->
         <div class="container">
             <h2 class="page-article-title">
                 これまでの沿革<br>
@@ -128,7 +128,7 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-    </section>
+    </section><!-- 第３セクション終了 -->
 
 </main><!-- main end -->
 

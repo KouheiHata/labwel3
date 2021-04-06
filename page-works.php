@@ -22,6 +22,7 @@ get_header(); ?>
     <?php endif; // 条件分岐終了 
     ?>
     <section class="section">
+        <!-- 第一セクション -->
         <div class="container">
             <h2 class="f-section-h2">
                 事業一覧<br>
@@ -54,22 +55,28 @@ get_header(); ?>
                 </div>
             </div>
         </div>
-    </section>
+    </section><!-- 第一セクション　終了 -->
 
     <section class="section-works">
         <header class="works-header">
             <div class="container">
-            <h2 class="works-heading">海岸清掃</h2>
+                <h2 class="works-heading">海岸清掃</h2>
                 <small>COAST CLEANING</small>
             </div>
-                
-            </header>
-        <div class="flex-box">
+
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item1">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" alt="" loading="lazy">
             </div>
-    </section>
+            <div class="flex-item flex-item2">
+                
+            </div>
+        </div>
+        <div class="flex-box">
 
-    <div class="container-fluid"></div>
+        </div>
+    </section>
 
 
 </main><!-- main end -->
