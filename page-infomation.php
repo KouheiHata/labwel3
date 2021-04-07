@@ -25,28 +25,28 @@ get_header(); ?>
     <section class="section"><!-- 第一セクション -->
 
         <div class="container">
-            <h2 title class="page-title">
+            <h2 title class="page-title fadein">
                 会社情報<br>
                 <span class="suffix">Infomation</span>
             </h2>
         </div>
 
-        <img src="<?php echo esc_url(get_theme_file_uri('images/walking-forest.jpg')); ?>" alt="" class="mt50" loading="lazy">
+        <img src="<?php echo esc_url(get_theme_file_uri('images/walking-forest.jpg')); ?>" alt="" class="mt50 fadein" loading="lazy">
         <div class="container">
             <div class="row">
                 <div class="col-12 justify-content-center mt100">
-                    <h3 class="description-heading">株式会社LABwelは、お仕事を通して自分の存在価値・やる気・新たな能力の 発見など、利用者さんの“成長に繋がる自立”を支援をする会社です。
+                    <h3 class="description-heading fadein">株式会社LABwelは、お仕事を通して自分の存在価値・やる気・新たな能力の 発見など、利用者さんの“成長に繋がる自立”を支援をする会社です。
                     </h3>
                 </div>
 
-                <h2 title class="page-article-title mt100">
+                <h2 title class="page-article-title mt100 fadein">
                     会社概要<br>
                     <span class="suffix">About Us</span>
                 </h2>
 
                 <div class="flex-box description-table">
                     <div class="flex-item">
-                        <table class="info-table">
+                        <table class="info-table fadein">
                             <tbody>
                                 <tr>
                                     <td>会社名</td>
@@ -64,7 +64,7 @@ get_header(); ?>
                         </table>
                     </div>
                     <div class="flex-item">
-                        <table class="info-table">
+                        <table class="info-table fadein">
                             <tbody>
                                 <tr>
                                     <td>TEL</td>
@@ -89,25 +89,25 @@ get_header(); ?>
     <section class="section"><!-- 第二セクション -->
 
         <div class="container">
-            <h2 title class="page-article-title mb100">
+            <h2 title class="page-article-title mb100 fadein">
                 経営理念<br>
                 <span class="suffix">Mission</span>
             </h2>
-            <h3 class="description-heading">
+            <h3 class="description-heading fadein">
                 お客様の満足に貢献し、障がい者の満足を追求し、地域社会に貢献する。
             </h3>
         </div>
 
-        <img src="<?php echo esc_url(get_theme_file_uri('images/gathering-photo.jpg')); ?>" alt="" class="mt100" loading="lazy">
+        <img src="<?php echo esc_url(get_theme_file_uri('images/gathering-photo.jpg')); ?>" alt="" class="mt100 fadein" loading="lazy">
     </section><!-- 第２セクション　終了 -->
 
     <section class="section"><!-- 第3セクション -->
         <div class="container">
-            <h2 class="page-article-title">
+            <h2 class="page-article-title fadein">
                 これまでの沿革<br>
                 <span class="suffix">History</span>
             </h2>
-            <div class="flex-box description-table">
+            <div class="flex-box description-table fadein">
                 <div class="flex-item">
                     <table class="info-table">
                         <tbody>

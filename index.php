@@ -1,9 +1,5 @@
         <?php get_header(); ?>
         <main id="f-main" class="f-main">
-            <div class="angle-wrap">
-                <p><small>scroll</small></p>
-                <div class="angle"></div>
-            </div>
             <!-- main start▼ -->
             <section class="f-section">
                 <div class="container">

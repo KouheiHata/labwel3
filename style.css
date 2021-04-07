@@ -292,7 +292,7 @@ section:nth-child(even) {
     color: #ffffff;
     text-shadow: 5px 10px 10px rgba(0, 0, 0, 0.2);
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: calc(50vw / 36 * 10);
 }
 
@@ -309,7 +309,7 @@ section:nth-child(even) {
     border-left: 2px solid #333333;
     border-bottom: 2px solid #333333;
     position: absolute;
-    bottom: 100px;
+    bottom: 60px;
     left: 82px;
     transform: rotate(-45deg);
     animation: angle 2s ease-in-out infinite;
@@ -317,19 +317,19 @@ section:nth-child(even) {
 
 @keyframes angle {
     0% {
-        bottom: 100px;
+        bottom: 60px;
     }
     50% {
-        bottom: 80px;
+        bottom: 40px;
     }
     100% {
-        bottom: 100px;
+        bottom: 60px;
     }
 }
 
 .angle-wrap p {
     position: absolute;
-    bottom: 106px;
+    bottom: 66px;
     left: 42%;
 }
 

@@ -24,28 +24,28 @@ get_header(); ?>
 
     <section class="section"><!-- A型紹介セクション -->
         <div class="container">
-            <h2 id="typea" class="f-section-h2">
+            <h2 id="typea" class="f-section-h2 fadein">
                 A型事業所
                 <span class="h2-large">Type A Welfare</span>
             </h2>
-            <div class="section-boxleft">
+            <div class="section-boxleft fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.png')); ?>" alt="ipppo" loading="lazy">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy" class="ml100">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/a-copy_03.png')); ?>" alt="やりがい見つかる「A型」" loading="lazy" class="mt50">
                 <p class="mt50">バリエーション豊富なお仕事内容だから自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
             </div>
-            <div class="section-boxright">
+            <div class="section-boxright fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
             </div>
             <div class="clearfix"></div>
 
-            <h2 class="page-article-title mt100">
+            <h2 class="page-article-title mt100 fadein">
                 サービス利用開始までの流れ<br>
                 <span class="h2-small">※横にスクロールします。</span>
             </h2>
         </div>
 
-        <ul class="side-scroll-content mt40">
+        <ul class="side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
                 <p class="content-card-title">1.ハローワークからの紹介</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
@@ -80,10 +80,10 @@ get_header(); ?>
             </li>
         </ul>
         <div class="container">
-            <h2 class="page-article-title mt100">所在地・連絡先</h2>
+            <h2 class="page-article-title mt100 fadein">所在地・連絡先</h2>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <table class="office-address mt50">
+                    <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
                                 <th>本社/Ipppo</th>
@@ -108,10 +108,10 @@ get_header(); ?>
                             </tr>
                         </tbody>
                     </table>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.5471168521503!2d136.05110441525704!3d35.614236480209975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e55444fbdf73%3A0xe95b2cb616ba3505!2z44CSOTE0LTAxMzEg56aP5LqV55yM5pWm6LOA5biC5YWs5paH5ZCN77yV77yU!5e0!3m2!1sja!2sjp!4v1617330630976!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.5471168521503!2d136.05110441525704!3d35.614236480209975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e55444fbdf73%3A0xe95b2cb616ba3505!2z44CSOTE0LTAxMzEg56aP5LqV55yM5pWm6LOA5biC5YWs5paH5ZCN77yV77yU!5e0!3m2!1sja!2sjp!4v1617330630976!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50 fadein"></iframe>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <table class="office-address mt50">
+                    <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
                                 <th>+Ipppo</th>
@@ -136,30 +136,33 @@ get_header(); ?>
                             </tr>
                         </tbody>
                     </table>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.729710679572!2d136.05291601525752!3d35.63438928020527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e5335f98bff7%3A0x1b4a37e74ad48a02!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yS!5e0!3m2!1sja!2sjp!4v1617330719708!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.729710679572!2d136.05291601525752!3d35.63438928020527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e5335f98bff7%3A0x1b4a37e74ad48a02!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yS!5e0!3m2!1sja!2sjp!4v1617330719708!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50 fadein"></iframe>
                 </div>
             </div>
         </div>
     </section><!-- A型紹介　終了 -->
     <section class="section">
         <div class="container">
-            <h2 id="typeb" class="f-section-h2">
+            <h2 id="typeb" class="f-section-h2 fadein">
                 B型事業所
                 <span class="h2-large">Type B Welfare</span>
             </h2>
-            <div class="section-boxleft">
+            <div class="section-boxleft fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/b-copy_07.png')); ?>" alt="自分の居場所が見つかる「B型」" loading="lazy" class="mt50">
                 <p class="mt50">みんなと働くのが楽しくなる</p>
                 <p>そんな働きやすい環境と楽しい人間関係づくりにこだわりました。</p>
             </div>
-            <div class="section-boxright">
+            <div class="section-boxright fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
             </div>
             <div class="clearfix"></div>
-            <h2 class="page-article-title mt100">サービス利用開始までの流れ</h2>
+            <h2 class="page-article-title mt100 fadein">
+                サービス利用開始までの流れ<br>
+                <span class="h2-small">※横にスクロールします。</span>
+            </h2>
         </div>
-        <ul class="side-scroll-content mt40">
+        <ul class="side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
                 <p class="content-card-title">1.事務所へのご見学</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
@@ -183,12 +186,12 @@ get_header(); ?>
             </li>
         </ul>
         <div class="container">
-            <h2 class="page-article-title mt100">
+            <h2 class="page-article-title mt100 fadein">
                 所在地・連絡先
             </h2>
             <div class="row">
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <table class="office-address mt50">
+                    <table class="office-address mt50 fadein">
                         <thead><tr>
                             <th>+Ipppo</th>
                         </tr></thead>
@@ -211,10 +214,10 @@ get_header(); ?>
                             </tr>
                         </tbody>
                     </table>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.729710679572!2d136.05291601525752!3d35.63438928020527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e5335f98bff7%3A0x1b4a37e74ad48a02!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yS!5e0!3m2!1sja!2sjp!4v1617330719708!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.729710679572!2d136.05291601525752!3d35.63438928020527!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001e5335f98bff7%3A0x1b4a37e74ad48a02!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yS!5e0!3m2!1sja!2sjp!4v1617330719708!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50 fadein"></iframe>
                 </div>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                    <table class="office-address mt50">
+                    <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
                                 <th>Be Ipppo!</th>
@@ -239,7 +242,7 @@ get_header(); ?>
                             </tr>
                         </tbody>
                     </table>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.694787329481!2d136.05560401525747!3d35.635250080205005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001facb6eccd6fb%3A0xb400c77583c41e2a!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yR77yV4oiS77yU4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1617340618270!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3242.694787329481!2d136.05560401525747!3d35.635250080205005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001facb6eccd6fb%3A0xb400c77583c41e2a!2z44CSOTE0LTAxMjEg56aP5LqV55yM5pWm6LOA5biC6YeO56We77yR77yV4oiS77yU4oiS77yR77yT!5e0!3m2!1sja!2sjp!4v1617340618270!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50 fadein"></iframe>
                 </div>
             </div>
         </div>
@@ -247,21 +250,24 @@ get_header(); ?>
     </section>
     <section class="section">
         <div class="container">
-            <h2 id="grouphome" class="f-section-h2">
+            <h2 id="grouphome" class="f-section-h2 fadein">
                 共同生活援助（グループホーム）
                 <span class="h2-large">Group Home</span>
             </h2>
-            <h2 class="f-section-h2">LIFE Ipppo!和久野</h2>
-            <div class="section-boxleft">
+            <h2 class="f-section-h2 fadein">LIFE Ipppo!和久野</h2>
+            <div class="section-boxleft fadein">
                 <p class="mt100">警備セキュリティをはじめ、夜間支援員などの安心して住むことが出来る環境づくりを目指しました。</p>
             </div>
-            <div class="section-boxright">
+            <div class="section-boxright fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="" loading="lazy">
             </div>
             <div class="clearfix"></div>
-            <h2 class="page-article-title mt100">サービス利用開始までの流れ</h2>
+            <h2 class="page-article-title mt100 fadein">
+                サービス利用開始までの流れ<br>
+                <span class="h2-small">※横にスクロールします。</span>
+            </h2>
         </div>
-        <ul class="side-scroll-content mt40">
+        <ul class="side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
                 <p class="content-card-title">1.グループホームへのご見学</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
@@ -285,7 +291,7 @@ get_header(); ?>
             </li>
         </ul>
         <div class="container">
-            <h2 class="page-article-title mt100">所在地・連絡先</h2>
+            <h2 class="page-article-title mt100 fadein">所在地・連絡先</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <table class="office-address mt50">
@@ -303,7 +309,7 @@ get_header(); ?>
                             </tr>
                         </tbody>
                     </table>
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.1074957452456!2d136.06029611525722!3d35.62507638020739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001fab1e87425fd%3A0x23b2a51bd662539c!2z44CSOTE0LTAxMjMg56aP5LqV55yM5pWm6LOA5biC5ZKM5LmF6YeO77yS!5e0!3m2!1sja!2sjp!4v1617595443945!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3243.1074957452456!2d136.06029611525722!3d35.62507638020739!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6001fab1e87425fd%3A0x23b2a51bd662539c!2z44CSOTE0LTAxMjMg56aP5LqV55yM5pWm6LOA5biC5ZKM5LmF6YeO77yS!5e0!3m2!1sja!2sjp!4v1617595443945!5m2!1sja!2sjp" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" class="mt50 fadein"></iframe>
                 </div>
             </div>
         </div>
