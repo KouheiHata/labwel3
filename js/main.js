@@ -26,3 +26,11 @@ $(window).scroll(function(){
 		}
 	});
 });
+
+$(window).scroll(function(){
+	if ($(window).scrollTop() <= 100) {
+		$('.nav-wrap').addClass('transparent');
+	} else {
+		$('.nav-wrap').removeClass('transparent');
+	}
+});

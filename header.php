@@ -63,13 +63,14 @@
             <!-- header start▼ -->
             <div class="container-fluid">
                 <div class="row align-content-center">
-                    <div class="nav-wrap">
+                    <div class="nav-wrap transparent">
                         <div class="container">
                             <nav class="flex-box">
                                 <h1 class="logo">
                                     <a href="<?php echo esc_url(home_url('/')) ?>">
-                                    <img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABWEL">
+                                    <img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABWEL" class="logo-normal">
                                     </a>
+                                    <img src="<?php echo esc_url(get_theme_file_uri('images/logo_white.png')); ?>" alt="LABWEL" class="logo-white">
                                 </h1>
                                 <ul class="nav-top flex-box">
                                     <li><a href="<?php echo esc_url(home_url('infomation')); ?>" class="header-menu-item">会社情報</a></li>
