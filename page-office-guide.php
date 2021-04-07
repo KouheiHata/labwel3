@@ -24,7 +24,7 @@ get_header(); ?>
 
     <section class="section"><!-- A型紹介セクション -->
         <div class="container">
-            <h2 class="f-section-h2">
+            <h2 id="typea" class="f-section-h2">
                 A型事業所
                 <span class="h2-large">Type A Welfare</span>
             </h2>
@@ -143,7 +143,7 @@ get_header(); ?>
     </section><!-- A型紹介　終了 -->
     <section class="section">
         <div class="container">
-            <h2 class="f-section-h2">
+            <h2 id="typeb" class="f-section-h2">
                 B型事業所
                 <span class="h2-large">Type B Welfare</span>
             </h2>
@@ -247,7 +247,7 @@ get_header(); ?>
     </section>
     <section class="section">
         <div class="container">
-            <h2 class="f-section-h2">
+            <h2 id="grouphome" class="f-section-h2">
                 共同生活援助（グループホーム）
                 <span class="h2-large">Group Home</span>
             </h2>

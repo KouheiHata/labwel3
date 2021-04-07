@@ -5,6 +5,8 @@
     <meta charset="<?php bloginfo('charset'); ?>">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/favicon.ico">
     <title>
         <?php if (is_front_page()) : ?>
             <?php bloginfo('name'); ?>
@@ -69,15 +71,15 @@
                                 <h1 class="logo">
                                     <a href="<?php echo esc_url(home_url('/')) ?>">
                                     <img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABWEL" class="logo-normal">
-                                    </a>
                                     <img src="<?php echo esc_url(get_theme_file_uri('images/logo_white.png')); ?>" alt="LABWEL" class="logo-white">
+                                    </a>
                                 </h1>
                                 <ul class="nav-top flex-box">
                                     <li><a href="<?php echo esc_url(home_url('infomation')); ?>" class="header-menu-item">会社情報</a></li>
                                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>" class="header-menu-item">事務所のご案内</a></li>
                                     <li><a href="<?php echo esc_url(home_url('works')); ?>" class="header-menu-item">お仕事の内容</a></li>
-                                    <li><a href="#" class="header-menu-item">Facebook</a></li>
-                                    <li><a href="#" class="contact-button">お問い合わせ</a></li>
+                                    <li><a href="https://www.facebook.com/labwel.co.jp" class="header-menu-item">Facebook</a></li>
+                                    <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="contact-button">お問い合わせ</a></li>
                                 </ul>
                             </nav>
                         </div>

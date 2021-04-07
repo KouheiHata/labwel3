@@ -354,6 +354,7 @@ nav {
 .logo {
     width: 200px;
     font-size: 0;
+    transition: 0.4s all ease-in;
 }
 
 .logo-white {
