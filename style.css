@@ -568,21 +568,22 @@ section:last-child {
 .f-work-gallery2 .flex-item:hover,
 .f-work-gallery2 .flex-item:active {
     opacity: 0.8;
-} 
-
-.f-work-gallery1 .flex-item h3,
-.f-work-gallery2 .flex-item h3 {
-    font-weight: 500;
-    position: absolute;
-    z-index: 2;
 }
 
-.gallery-more {
-    font-size: 12px;
+.f-work-gallery1 .flex-item a,
+.f-work-gallery2 .flex-item a {
+    position: relative;
+}
+
+.f-work-gallery1 .flex-item a h3,
+.f-work-gallery2 .flex-item a h3 {
+    color: #ffffff;
+    font-weight: 500;
     text-align: center;
-    position:absolute;
+    position: absolute;
+    top: 50%;
+    left: 36%;
     z-index: 2;
-    bottom: 16px;
 }
 
 .f-work-gallery1 .flex-item img,
@@ -590,9 +591,15 @@ section:last-child {
     filter:brightness(70%);
 }
 
-.f-work-gallery1 .flex-item img a,
-.f-work-gallery2 .flex-item img a {
+.f-work-gallery1 .flex-item .gallery-more,
+.f-work-gallery2 .flex-item .gallery-more {
     color: #ffffff;
+    font-size: 12px;
+    text-align: center;
+    position:absolute;
+    z-index: 2;
+    left: 40%;
+    bottom: 16px;
 }
 
 
@@ -605,7 +612,7 @@ section:last-child {
 -------------------------------------------------------------*/
 .section {
     padding-top: 100px;
-    padding-bottom: 150px;
+    padding-bottom: 250px;
 }
 
 /* 会社情報のスタイル */
@@ -819,12 +826,14 @@ section:last-child {
 }
 
 .works-heading {
+    padding-top: 100px;
+    margin-top: -100px;
     font-weight: 700;
     position: relative;
-    top: 100px;
+    /* bottom: 100px; */
 }
 .works-gallery {
-    min-height: 550px;
+    min-height: 650px;
     justify-items: center;
 }
 .flex-item-img {

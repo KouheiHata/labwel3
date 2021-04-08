@@ -60,49 +60,64 @@
 
                     <div class="flex-box f-work-gallery1 mt100">
                         <div class="flex-item flex-item1 fadein">
-                            <h3>海岸清掃</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('works#coast-cleaning')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" loading="lazy" alt="海岸清掃"></a>
+                            <a href="<?php echo esc_url(home_url('works#coast-cleaning')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" loading="lazy" alt="海岸清掃">
+                                <h3>海岸清掃</h3>
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                         <div class="flex-item flex-item2 fadein">
                             <h3>戸別収集</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('works#waste-gathering')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" loading="lazy" alt="戸別収集"></a>
-
+                            <a href="<?php echo esc_url(home_url('works#waste-gathering')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" loading="lazy" alt="戸別収集">
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                         <div class="flex-item flex-item3 fadein">
                             <h3>高齢者生活支援</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('works#life-support')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/life-support.jpg')); ?>" loading="lazy" alt="高齢者生活支援"></a>
+                            <a href="<?php echo esc_url(home_url('works#life-support')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/life-support.jpg')); ?>" loading="lazy" alt="高齢者生活支援">
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                     </div>
                     <div class="flex-box f-work-gallery2">
                         <div class="flex-item flex-item1 fadein">
-                            <h3>寺院清掃</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('works#temple-clean')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" loading="lazy" alt="寺院清掃"></a>
+                            <a href="<?php echo esc_url(home_url('works#temple-clean')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" loading="lazy" alt="寺院清掃">
+                                <h3>寺院清掃</h3>
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                         <div class="flex-item flex-item2 fadein">
                             <h3>洗濯・クリーニング</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('work#cleaning')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/cleaning.jpg')); ?>" loading="lazy" alt="洗濯・クリーニング"></a>
+                            <a href="<?php echo esc_url(home_url('work#cleaning')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning.jpg')); ?>" loading="lazy" alt="洗濯・クリーニング">
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                     </div>
                     <div class="flex-box f-work-gallery1">
                         <div class="flex-item flex-item1 fadein">
                             <h3>おぼろ昆布・加工販売</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('work#kelp-selling')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/kelp-selling.jpg')); ?>" loading="lazy" alt="おぼろ昆布・加工販売"></a>
+                            <a href="<?php echo esc_url(home_url('work#kelp-selling')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/kelp-selling.jpg')); ?>" loading="lazy" alt="おぼろ昆布・加工販売">
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                         <div class="flex-item flex-item2 fadein">
                             <h3>弁当・調理販売</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('work#lunchbox')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/lunchbox.jpg')); ?>" loading="lazy" alt="弁当・調理販売"></a>
+                            <a href="<?php echo esc_url(home_url('work#lunchbox')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/lunchbox.jpg')); ?>" loading="lazy" alt="弁当・調理販売">
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                         <div class="flex-item flex-item3 fadein">
                             <h3>特別清掃</h3>
-                            <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="<?php echo esc_url(home_url('work#cleaning2')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/cleaning2.jpg')); ?>" loading="lazy" alt="特別清掃"></a>
+                            <a href="<?php echo esc_url(home_url('work#cleaning2')); ?>">
+                                <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning2.jpg')); ?>" loading="lazy" alt="特別清掃">
+                                <p class="gallery-more">READ MORE&nbsp;>></p>
+                            </a>
                         </div>
                     </div>
 
