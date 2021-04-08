@@ -1,9 +1,5 @@
         <?php get_header(); ?>
         <main id="f-main" class="f-main">
-            <div class="angle-wrap">
-                <p><small>scroll</small></p>
-                <div class="angle"></div>
-            </div>
             <!-- main start▼ -->
             <section class="f-section">
                 <div class="container">
@@ -15,7 +11,7 @@
                         </h2>
                         <p class="f-content-p mt100 fadein">やりがいの見つかるA型</p>
                         <p class="f-content-p mt100 fadein">バリエーション豊富なお仕事だから、自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
-                        <button class="f-button mt100 fadein"><a href="#" target="_blank">詳しくはこちら</a></button>
+                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#typea')); ?>" target="_blank">詳しくはこちら</a></button>
                         <img src="<?php echo esc_url(get_theme_file_uri('images/typea-work.jpg')); ?>" alt="A型｜海岸清掃" loading="lazy" class="f-section-image1 fadein">
                     </div>
                 </div>
@@ -31,7 +27,7 @@
                         <p class="f-contenr-p mt100 fadein">自分の居場所が見つかるB型</p>
                         <p class="f-content-p mt100 fadein">みんなとお仕事するのが楽しくなる。</p>
                         <p class="f-contenr-p fadein">そんな働きやすい環境と楽しい人間関係づくりこだわりました。</p>
-                        <button class="f-button mt100 fadein"><a href="#" target="_blank">詳しくはこちら</a></button>
+                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#typeb')); ?>" target="_blank">詳しくはこちら</a></button>
                         <img src="<?php echo esc_url(get_theme_file_uri('images/typeb-work.jpg')); ?>" alt="B型｜寺院清掃" loading="lazy" class="f-section-image2 fadein">
                     </div>
                 </div>
@@ -49,7 +45,7 @@
                         </h2>
                         <p class="f-content-p mt100 fadein">自分の住む場所が見つかる『グループホーム』</p>
                         <p class="f-content-p mt100 fadein">住みやすい環境と安心を与えられる家づくりにこだわりました。</p>
-                        <button class="f-button mt100 fadein"><a href="#" target="_blank">詳しくはこちら</a></button>
+                        <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#grouphome')); ?>" target="_blank">詳しくはこちら</a></button>
                         <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="LIFE Ipppo和久野" loading="lazy" class="f-section-image1 fadein">
                     </div>
                 </div>
@@ -66,25 +62,25 @@
                         <div class="flex-item flex-item1 fadein">
                             <h3>海岸清掃</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" loading="lazy" alt="海岸清掃"></a>
+                            <a href="<?php echo esc_url(home_url('works#coast-cleaning')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" loading="lazy" alt="海岸清掃"></a>
                         </div>
                         <div class="flex-item flex-item2 fadein">
                             <h3>戸別収集</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" loading="lazy" alt="戸別収集"></a>
+                            <a href="<?php echo esc_url(home_url('works#waste-gathering')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" loading="lazy" alt="戸別収集"></a>
 
                         </div>
                         <div class="flex-item flex-item3 fadein">
                             <h3>高齢者生活支援</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/life-support.jpg')); ?>" loading="lazy" alt="高齢者生活支援"></a>
+                            <a href="<?php echo esc_url(home_url('works#life-support')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/life-support.jpg')); ?>" loading="lazy" alt="高齢者生活支援"></a>
                         </div>
                     </div>
                     <div class="flex-box f-work-gallery2">
                         <div class="flex-item flex-item1 fadein">
                             <h3>寺院清掃</h3>
                             <p class="gallery-more">READ MORE&nbsp;>></p>
-                            <a href="#"><img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" loading="lazy" alt="寺院清掃"></a>
+                            <a href="<?php echo esc_url(home_url('works#temple-clean')); ?>"><img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" loading="lazy" alt="寺院清掃"></a>
                         </div>
                         <div class="flex-item flex-item2 fadein">
                             <h3>洗濯・クリーニング</h3>

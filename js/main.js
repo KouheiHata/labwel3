@@ -27,11 +27,11 @@ $(window).scroll(function(){
 	});
 });
 
-// 揺らすアニメーション
-// $(function(){
-// 	$('.angle').yurayura({
-// 		'move' : 5,
-// 		'delay' : 100,
-// 		'duration' : 1000
-// 	});
-// });
+//　透明＆不透明化処理
+$(window).scroll(function(){
+	if ($(window).scrollTop() <= 100) {
+		$('.nav-wrap').addClass('transparent');
+	} else {
+		$('.nav-wrap').removeClass('transparent');
+	}
+});
