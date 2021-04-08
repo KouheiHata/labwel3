@@ -75,7 +75,7 @@
                                     </a>
                                 </h1>
                                 <ul class="nav-top flex-box">
-                                    <li><a href="<?php echo esc_url(home_url('infomation')); ?>" class="header-menu-item">会社情報</a></li>
+                                    <li><a href="<?php echo esc_url(home_url('information')); ?>" class="header-menu-item">会社情報</a></li>
                                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>" class="header-menu-item">事務所のご案内</a></li>
                                     <li><a href="<?php echo esc_url(home_url('works')); ?>" class="header-menu-item">お仕事の内容</a></li>
                                     <li><a href="https://www.facebook.com/labwel.co.jp" class="header-menu-item">Facebook</a></li>

@@ -24,11 +24,11 @@ get_header(); ?>
     <section class="section">
         <!-- 第一セクション -->
         <div class="container">
-            <h2 class="f-section-h2">
+            <h2 class="f-section-h2 fadein">
                 事業一覧<br>
                 <span class="h2-small">service</span>
             </h2>
-            <div class="grid-box service-index mt100">
+            <div class="grid-box service-index mt100 fadein">
                 <div class="box-item box-item1">
                     <button class="index-btn"><a href="#coast-cleaning">海岸清掃</a></button>
                 </div>
@@ -58,115 +58,132 @@ get_header(); ?>
     </section><!-- 第一セクション　終了 -->
 
     <section class="section-works">
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="coast-cleaning">海岸清掃</h2>
-                <small>COAST CLEANING</small>
+                <h2 class="works-heading fadein" id="coast-cleaning">
+                    海岸清掃<br>
+                    <span class="h2-small">COAST CLEANING</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" alt="" loading="lazy">
             </div>
-            <div class="flex-item flex-item-text">
-                <p>敦賀市認可のもと年間を通して車浦地田を中心に海岸清掃をしております。<br><br>廃プラスチックなどの海外からの漂着物を回収し、武生環境清掃センターへ搬出しております。</p>
+            <div class="flex-item flex-item-text fadein">
+                <p>敦賀市認可のもと年間を通して車浦地田を中心に海岸清掃をしております。</p>
+                <p>廃プラスチックなどの海外からの漂着物を回収し、武生環境清掃センターへ搬出しております。</p>
             </div>
         </div>
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="waste-gathering">戸別収集</h2>
-                <small>WASTE GATHERING</small>
+                <h2 class="works-heading fadein" id="waste-gathering">
+                    戸別収集<br>
+                    <span class="h2-small">WASTE GATHERING</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-text">
+            <div class="flex-item flex-item-text fadein">
                 <p>一般廃棄物収集・運搬許可を敦賀市よりいただきご家庭の不用品や、粗大ゴミの分別、回収を行っています。</p>
             </div>
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/waste-gathering.jpg')); ?>" alt="" loading="lazy">
             </div>
         </div>
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="life-support">高齢者生活支援</h2>
-                <small>LIFE SUPPORT</small>
+                <h2 class="works-heading fadein" id="life-support">
+                    高齢者生活支援<br>
+                    <span class="h2-small">LIFE SUPPORT</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/life-support.jpg')); ?>" alt="" loading="lazy">
             </div>
-            <div class="flex-item flex-item-text">
+            <div class="flex-item flex-item-text fadein">
                 <p>高齢者の生活支援として、お家のお掃除、お庭の草むしり、朝のゴミ出し（回収）を行っております。</p>
             </div>
         </div>
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="temple-clean">寺院清掃</h2>
-                <small>TEMPLE CLEANING</small>
+                <h2 class="works-heading fadein" id="temple-clean">
+                    寺院清掃<br>
+                    <span class="h2-small">TEMPLE CLEANING</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-text">
+            <div class="flex-item flex-item-text fadein">
                 <p>国指定重要文化財「西福寺」や１３９５年開創の由緒と歴史的伝統ある「永平寺」の寺内外の定期清掃を行っております。</p>
             </div>
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" alt="" loading="lazy">
             </div>
         </div>
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="cleaning">清掃・クリーニング</h2>
-                <small>CLEANING</small>
+                <h2 class="works-heading fadein" id="cleaning">
+                    清掃・クリーニング<br>
+                    <span class="h2-small">CLEANING</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning.jpg')); ?>" alt="" loading="lazy">
             </div>
-            <div class="flex-item flex-item-text">
+            <div class="flex-item flex-item-text fadein">
                 <p>敦賀市の病院で働く、医師看護士さんのタオルを回収し、洗濯・クリーニングしております。</p>
             </div>
         </div>
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="kelp-selling">おぼろ昆布・加工販売</h2>
-                <small>KELP SELLING</small>
+                <h2 class="works-heading fadein" id="kelp-selling">
+                    おぼろ昆布・加工販売<br>
+                    <span class="h2-small">KELP SELLING</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-text">
+            <div class="flex-item flex-item-text fadein">
                 <p>北前船で知られる北海道の真昆布を、LABwelの昆布かき職人が真心を込めて加工し、販売しています。</p>
             </div>
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/kelp-selling.jpg')); ?>" alt="" loading="lazy">
             </div>
         </div>
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="lunchbox">お弁当・調理販売</h2>
-                <small>LUNCH BOX</small>
+                <h2 class="works-heading fadein" id="lunchbox">
+                    お弁当・調理販売<br>
+                    <span class="h2-small">LUNCH BOX</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/lunchbox.jpg')); ?>" alt="" loading="lazy">
             </div>
-            <div class="flex-item flex-item-text">
+            <div class="flex-item flex-item-text fadein">
                 <p>LABwelの調理のプロがお客様のご要望に合わせてお弁当を調理、販売しております。お弁当の内容や価格などもご相談承ります。</p>
             </div>
         </div>
-        <header class="works-header">
+        <header class="works-header fadein">
             <div class="container">
-                <h2 class="works-heading" id="cleaning2">特別清掃</h2>
-                <small>CLEANING</small>
+                <h2 class="works-heading fadein" id="cleaning2">
+                    特別清掃<br>
+                    <span class="h2-small">CLEANING</span>
+                </h2>
             </div>
         </header>
         <div class="flex-box works-gallery">
-            <div class="flex-item flex-item-text">
+            <div class="flex-item flex-item-text fadein">
                 <p>会社の駐車場の除草作業、一般家庭のお庭の草むしり・剪定作業など特殊な清掃も行っております。</p>
             </div>
-            <div class="flex-item flex-item-img">
+            <div class="flex-item flex-item-img fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning2.jpg')); ?>" alt="" loading="lazy">
             </div>
         </div>
