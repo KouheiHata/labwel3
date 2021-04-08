@@ -42,16 +42,16 @@ get_header(); ?>
                     <button class="index-btn"><a href="#temple-clean">寺院清掃</a></button>
                 </div>
                 <div class="box-item box-item5">
-                    <button class="index-btn"><a href="#">清掃・クリーニング</a></button>
+                    <button class="index-btn"><a href="#cleaning">清掃・クリーニング</a></button>
                 </div>
                 <div class="box-item box-item6">
-                    <button class="index-btn"><a href="#">おぼろ昆布・加工販売</a></button>
+                    <button class="index-btn"><a href="#kelp-selling">おぼろ昆布・加工販売</a></button>
                 </div>
                 <div class="box-item box-item7">
-                    <button class="index-btn"><a href="#">お弁当・調理販売</a></button>
+                    <button class="index-btn"><a href="#lunchbox">お弁当・調理販売</a></button>
                 </div>
                 <div class="box-item box-item8">
-                    <button class="index-btn"><a href="#">特別清掃</a></button>
+                    <button class="index-btn"><a href="#cleaning2">特別清掃</a></button>
                 </div>
             </div>
         </div>
@@ -112,6 +112,62 @@ get_header(); ?>
             </div>
             <div class="flex-item flex-item-img">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" alt="" loading="lazy">
+            </div>
+        </div>
+        <header class="works-header">
+            <div class="container">
+                <h2 class="works-heading" id="cleaning">清掃・クリーニング</h2>
+                <small>CLEANING</small>
+            </div>
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning.jpg')); ?>" alt="" loading="lazy">
+            </div>
+            <div class="flex-item flex-item-text">
+                <p>敦賀市の病院で働く、医師看護士さんのタオルを回収し、洗濯・クリーニングしております。</p>
+            </div>
+        </div>
+        <header class="works-header">
+            <div class="container">
+                <h2 class="works-heading" id="kelp-selling">おぼろ昆布・加工販売</h2>
+                <small>KELP SELLING</small>
+            </div>
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item-text">
+                <p>北前船で知られる北海道の真昆布を、LABwelの昆布かき職人が真心を込めて加工し、販売しています。</p>
+            </div>
+            <div class="flex-item flex-item-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/kelp-selling.jpg')); ?>" alt="" loading="lazy">
+            </div>
+        </div>
+        <header class="works-header">
+            <div class="container">
+                <h2 class="works-heading" id="lunchbox">お弁当・調理販売</h2>
+                <small>LUNCH BOX</small>
+            </div>
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/lunchbox.jpg')); ?>" alt="" loading="lazy">
+            </div>
+            <div class="flex-item flex-item-text">
+                <p>LABwelの調理のプロがお客様のご要望に合わせてお弁当を調理、販売しております。お弁当の内容や価格などもご相談承ります。</p>
+            </div>
+        </div>
+        <header class="works-header">
+            <div class="container">
+                <h2 class="works-heading" id="cleaning2">特別清掃</h2>
+                <small>CLEANING</small>
+            </div>
+        </header>
+        <div class="flex-box works-gallery">
+            <div class="flex-item flex-item-text">
+                <p>会社の駐車場の除草作業、一般家庭のお庭の草むしり・剪定作業など特殊な清掃も行っております。</p>
+            </div>
+            <div class="flex-item flex-item-img">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning2.jpg')); ?>" alt="" loading="lazy">
             </div>
         </div>
     </section>
