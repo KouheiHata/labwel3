@@ -837,7 +837,7 @@ section:last-child {
     justify-items: center;
 }
 .flex-item-img {
-    max-width: 700px;
+    width: 700px;
     position: relative;
     top: -120px;
 }
