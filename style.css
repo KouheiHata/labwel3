@@ -153,6 +153,10 @@ a:focus {
     outline: none;
 }
 
+tr > td {
+    min-width: 60px;
+}
+
 iframe {
     width: 100%;
     height: 450px;
@@ -692,7 +696,7 @@ section:last-child {
 
 .section-boxleft {
     width: 580px;
-    min-height: 70vh;
+    min-height: 450px;
     padding-top: 50px;
     padding-right: 40px;
     padding-bottom: 100px;
@@ -712,33 +716,18 @@ section:last-child {
 
 /* サービス利用までの流れ*/
 .side-scroll-content {
-    /* width: 85%; */
-    margin-left: 15%;
-    background-color: #ffffff;
-    overflow: auto;
-    white-space: nowrap;
-}
-
-.side-scroll-content::-webkit-scrollbar {
-    height: 6px;
-}
-
-.side-scroll-content::-webkit-scrollbar-thumb {
-    background: #939597;
-    border-radius: 2px;
-}
-
-.side-scroll-content::-webkit-scrollbar-track {
-    background: #e2f1fc;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .scroll-content-card {
     display: inline-block;
     vertical-align: middle;
     color: #ffffff;
-    background-color: #333333;
-    width: 350px;
-    height: 600px;
+    background-color: #939597;
+    width: 300px;
+    height: 500px;
     margin-top: 0;
     margin-right: 40px;
     padding-top: 1.5rem;
@@ -753,7 +742,7 @@ section:last-child {
 }
 
 .card-content-inner {
-    width: 17em;
+    max-width: 14em;
     margin: 40px auto auto;
 }
 .card-content-inner p {

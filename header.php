@@ -62,7 +62,7 @@
         <!-- wrapper start -->
 
         <header id="f-header" class="f-header">
-            <h1 class="policy-heading">キャッチコピー</h1>
+            <h1 class="policy-heading"></h1>
             <!-- header start▼ -->
             <div class="container-fluid">
                 <div class="row align-content-center">

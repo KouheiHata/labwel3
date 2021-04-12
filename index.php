@@ -5,8 +5,8 @@
                 <div class="container">
                     <div class="f-section-inner fadein">
                         <h2 class="f-section-h2 fadein">
-                            A型事業所
-                            <span class="h2-large">Type A Welfare</span><br>
+                            就労継続支援A型事業所
+                            <span class="h2-large">Type A</span><br>
                             <span class="h2-small">type A</span>
                         </h2>
                         <p class="f-content-p mt100 fadein">やりがいの見つかるA型</p>
@@ -20,8 +20,8 @@
                 <div class="container">
                     <div class="f-section-inner f-section-inner2 fadein">
                         <h2 class="f-section-h2 fadein">
-                            B型事業所
-                            <span class="h2-large">Type B Welfare</span><br>
+                            就労継続支援B型事業所
+                            <span class="h2-large">Type B</span><br>
                             <span class="h2-small">type B</span>
                         </h2>
                         <p class="f-contenr-p mt100 fadein">自分の居場所が見つかるB型</p>

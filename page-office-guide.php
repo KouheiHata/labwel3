@@ -40,8 +40,7 @@ get_header(); ?>
             <div class="clearfix"></div>
 
             <h2 class="page-article-title mt100 fadein">
-                サービス利用開始までの流れ<br>
-                <span class="h2-small">※横にスクロールします。</span>
+                サービス利用開始までの流れ
             </h2>
         </div>
 
@@ -86,7 +85,7 @@ get_header(); ?>
                     <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
-                                <th>本社/Ipppo</th>
+                                <th colspan="2">本社/Ipppo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -114,7 +113,7 @@ get_header(); ?>
                     <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
-                                <th>+Ipppo</th>
+                                <th colspan="2">+Ipppo</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -158,8 +157,7 @@ get_header(); ?>
             </div>
             <div class="clearfix"></div>
             <h2 class="page-article-title mt100 fadein">
-                サービス利用開始までの流れ<br>
-                <span class="h2-small">※横にスクロールします。</span>
+                サービス利用開始までの流れ
             </h2>
         </div>
         <ul class="side-scroll-content mt40 fadein">
@@ -193,7 +191,7 @@ get_header(); ?>
                 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                     <table class="office-address mt50 fadein">
                         <thead><tr>
-                            <th>+Ipppo</th>
+                            <th colspan="2">+Ipppo</th>
                         </tr></thead>
                         <tbody>
                             <tr>
@@ -220,7 +218,7 @@ get_header(); ?>
                     <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
-                                <th>Be Ipppo!</th>
+                                <th colspan="2">Be Ipppo!</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -263,8 +261,7 @@ get_header(); ?>
             </div>
             <div class="clearfix"></div>
             <h2 class="page-article-title mt100 fadein">
-                サービス利用開始までの流れ<br>
-                <span class="h2-small">※横にスクロールします。</span>
+                サービス利用開始までの流れ
             </h2>
         </div>
         <ul class="side-scroll-content mt40 fadein">
@@ -294,9 +291,9 @@ get_header(); ?>
             <h2 class="page-article-title mt100 fadein">所在地・連絡先</h2>
             <div class="row justify-content-center">
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-                    <table class="office-address mt50">
+                    <table class="office-address mt50 fadein">
                         <thead>
-                            <tr><td>LIFE Ipppo!和久野</td></tr>
+                            <tr><th colspan="2">LIFE Ipppo!和久野</th></tr>
                         </thead>
                         <tbody>
                             <tr>
