@@ -31,7 +31,6 @@ get_header(); ?>
             </h2>
         </div>
 
-        <img src="<?php echo esc_url(get_theme_file_uri('images/walking-forest.jpg')); ?>" alt="" class="mt50 fadein" loading="lazy">
         <div class="container">
             <div class="row">
                 <div class="col-12 justify-content-center mt100">
