@@ -300,6 +300,10 @@ section:nth-child(even) {
     left: calc(50vw / 36 * 10);
 }
 
+video {
+    width: 100%;
+}
+
 /* スクロールを促す矢印 */
 .angle-wrap {
     margin: 0 auto;

@@ -85,7 +85,8 @@
                         </div>
                     </div>
 
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
+                    <video src="<?php echo get_template_directory_uri(); ?>/images/earth.mp4" autoplay muted loop></video>
+                    <!-- <img src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy"> -->
                 </div>
             </div>
             <div class="angle-wrap">
