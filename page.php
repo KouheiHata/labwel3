@@ -14,7 +14,6 @@
     <h2>まだ投稿がありません。<br>管理画面へ記事を投稿してください。</h2>
 <?php endif; // 条件分岐終了 ?>
 </div>
-
 </main><!-- main end -->
 
 <?php get_footer(); ?>
