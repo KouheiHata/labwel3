@@ -28,14 +28,24 @@ get_header(); ?>
                 A型事業所
                 <span class="h2-large">Type A Welfare</span>
             </h2>
-            <div class="section-boxleft fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.png')); ?>" alt="ipppo" loading="lazy">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy" class="ml100">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/a-copy_03.png')); ?>" alt="やりがい見つかる「A型」" loading="lazy" class="mt50">
-                <p class="mt50">バリエーション豊富なお仕事内容だから自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
+            <div class="section-boxleft grid-box fadein">
+                <div class="box-item box-item1">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.png')); ?>" alt="ipppo" loading="lazy"><br><br>
+                    <a href="<?php echo esc_url(get_theme_file_uri('images/r2_ipppo.pdf')); ?>">令和２年度スコアシート及び<br>地域連携活動実施状況報告書</a>
+                </div>
+                <div class="box-item box-item2">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy"><br><br>
+                    <a href="<?php echo esc_url(get_theme_file_uri('images/r2_plus-ipppo.pdf')); ?>">令和２年度スコアシート及び<br>地域連携活動実施状況報告書</a>
+                </div>
+                <div class="box-item box-item3 col2">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/a-copy_03.png')); ?>" alt="やりがい見つかる「A型」" loading="lazy" class="mt50">
+                </div>
+                <div class="box-item box-item4 col2">
+                    <p class="mt50">バリエーション豊富なお仕事内容だから自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
+                </div>
             </div>
             <div class="section-boxright fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy" class="mt100">
             </div>
             <div class="clearfix"></div>
 

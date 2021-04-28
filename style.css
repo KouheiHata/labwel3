@@ -269,6 +269,9 @@ section:nth-child(even) {
 .grid-box {
     display: grid;
 }
+.col2 {
+    grid-column-end: span 2;
+}
 
 
 /* jquery */
@@ -704,6 +707,9 @@ section:last-child {
     padding-top: 50px;
     padding-right: 40px;
     padding-bottom: 100px;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    column-gap: 10px;
     float: left;
 }
 
