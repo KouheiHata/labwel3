@@ -17,7 +17,7 @@ Template Name: お問い合わせページ
             <span class="h2-small">Contact</span>
             </h2>
             <div class="pt-5"></div>
-            <?php echo do_shortcode('[contact-form-7 id="386" title="LABWEL3_お問い合わせ"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="14" title="お問い合わせ"]'); ?>
         </div>
    </div>
 </div>
