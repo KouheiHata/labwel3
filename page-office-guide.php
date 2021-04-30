@@ -29,18 +29,18 @@ get_header(); ?>
                 <span class="h2-large">Type A Welfare</span>
             </h2>
             <div class="section-boxleft grid-box fadein">
-                <div class="box-item box-item1">
+                <div class="box-item box-item1 fadein">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.png')); ?>" alt="ipppo" loading="lazy"><br><br>
                     <a href="<?php echo esc_url(get_theme_file_uri('images/r2_ipppo.pdf')); ?>">令和２年度スコアシート及び<br>地域連携活動実施状況報告書</a>
                 </div>
-                <div class="box-item box-item2">
+                <div class="box-item box-item2 fadein">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy"><br><br>
                     <a href="<?php echo esc_url(get_theme_file_uri('images/r2_plus-ipppo.pdf')); ?>">令和２年度スコアシート及び<br>地域連携活動実施状況報告書</a>
                 </div>
-                <div class="box-item box-item3 col2">
+                <div class="box-item box-item3 col2 fadein">
                     <img src="<?php echo esc_url(get_theme_file_uri('images/a-copy_03.png')); ?>" alt="やりがい見つかる「A型」" loading="lazy" class="mt50">
                 </div>
-                <div class="box-item box-item4 col2">
+                <div class="box-item box-item4 col2 fadein">
                     <p class="mt50">バリエーション豊富なお仕事内容だから自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
                 </div>
             </div>
