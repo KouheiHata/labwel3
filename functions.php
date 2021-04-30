@@ -43,7 +43,7 @@ function enqueue_scripts() {
     //メインスタイル
     wp_enqueue_style('main', get_stylesheet_uri() );
     //レスポンシブCSS
-    wp_enqueue_style('responsive', get_template_directory_uri().'/css/responsive.css' );
+    wp_enqueue_style('responsive', get_template_directory_uri().'/responsive.css' );
     // ここからJavascript
     //jQuery
     wp_enqueue_script('jquery3.5', 'https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js', array(), '3.5.1', true );

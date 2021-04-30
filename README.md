@@ -21,6 +21,15 @@
 
 #### レスポンシブ対応作業のブランチ作成
 
+作業をやりやすくするため、フェードイン部分のcssを一旦コメントアウト
+
+1024pxのナビゲーションの幅変更、768pxでナビゲーションdisplay:none;ハンバーガーメニュー追加中
+
+### Todoリスト
 - [ ] 完成した映像をヘッダーへ
-- [x] 画像を元へ戻す
-- [x] 本番へアップ
+- [ ] header,nav部分のcss作成
+- [ ] front-pageのcss作成
+- [ ] page-infomationのcss作成
+- [ ] page-office-guideのcss作成
+- [ ] page-worksのcss作成
+
