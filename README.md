@@ -27,9 +27,12 @@
 
 5/6 ハンバーガーメニューのJavaScript,CSS実装<br>header部分のCSS作成
 
+現状ではスマホ版で目立つスペースが開くので、仕事一覧部分の設計変更を考え、後で指示を仰ぐ
+
 ### Todoリスト
 - [ ] 完成した映像をヘッダーへ
 - [x] header,nav部分のcss作成
+- [x] footer部分のcss作成
 - [ ] front-pageのcss作成
 - [ ] page-infomationのcss作成
 - [ ] page-office-guideのcss作成

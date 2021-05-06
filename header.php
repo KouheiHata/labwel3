@@ -78,7 +78,7 @@
                                     <li><a href="<?php echo esc_url(home_url('information')); ?>" class="header-menu-item">会社情報</a></li>
                                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>" class="header-menu-item">事務所のご案内</a></li>
                                     <li><a href="<?php echo esc_url(home_url('works')); ?>" class="header-menu-item">お仕事の内容</a></li>
-                                    <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" class="header-menu-item">Facebook</a></li>
+                                    <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" rel="noopener" class="header-menu-item">Facebook</a></li>
                                     <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="contact-button">お問い合わせ</a></li>
                                 </ul>
                             </nav><!-- ナビゲーション終了 -->
@@ -90,11 +90,11 @@
                         <span class="ham-line ham-line3"></span>
                     </div>
                     <ul class="ham-nav" id="ham_nav">
-                        <li><a href="#">会社情報</a></li>
-                        <li><a href="#">事務所のご案内</a></li>
-                        <li><a href="#">お仕事の内容</a></li>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">お問い合わせ</a></li>
+                        <li><a href="<?php echo esc_url(home_url('information')); ?>">会社情報</a></li>
+                        <li><a href="<?php echo esc_url(home_url('office-guide')); ?>">事務所のご案内</a></li>
+                        <li><a href="<?php echo esc_url(home_url('works')); ?>">お仕事の内容</a></li>
+                        <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="<?php echo esc_url(home_url('contact')); ?>">お問い合わせ</a></li>
                     </ul><!-- ハンバーガーメニュー　終了 -->
 
                     <!-- <video src="<?php echo get_template_directory_uri(); ?>/images/earth.mp4" autoplay muted loop></video> -->

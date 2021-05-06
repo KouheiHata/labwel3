@@ -33,11 +33,13 @@
 }
 
 @media screen and (max-width: 768px) {
-	
+	.mt100 {
+		margin-top: 50px;
+	}
 }
 
 @media screen and (max-width: 576px) {
-	body {
+	html {
 		font-size: 11px;
 	}
 }
@@ -118,7 +120,7 @@
 		background: rgba(255, 255, 255, 0.8);
 		border-radius: 8px;
 		position: fixed;
-		top: 60px;
+		top: 30px;
 		right: 40px;
 		z-index: 101;
 		transition: 0.5s ease-in-out all 0.2s;
@@ -185,6 +187,7 @@
 		padding-bottom: 20px;
 		border-bottom: 3px solid rgb(255, 255, 255);
 		text-indent: 1em;
+		text-shadow: 2px 2px 4px rgba(51, 51, 51, 0.4);
 	}
 	.ham-nav > li > a {
 		color: rgb(255, 255, 255);
@@ -199,7 +202,6 @@
 	.ham {
 		width: 40px;
 		height: 40px;
-		top: 30px;
 		right: 30px;
 	}
 	.ham-line {
@@ -228,6 +230,7 @@
 	}
 	.ham-nav > li {
 		margin-top: 24px;
+		width: 70%;
 	}
 }
 
@@ -239,7 +242,66 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+	.h2-large {
+		font-size: 60px;
+		bottom: 0;
+	}
 
+	.f-section-inner {
+		width: 100%;
+		height: 950px;
+	}
+
+	.f-section-image1 {
+		position: static;
+		margin-top: 50px;
+	}
+
+	.f-section-inner2 {
+		margin-left: 0;
+	}
+
+	.f-section-image2 {
+		position: static;
+		margin-top: 50px;
+	}
+	/* 仕事の一覧 */
+	.f-work-gallery1 {
+		flex: 1 1 auto;
+	}
+
+	.f-work-gallery1 .flex-item {
+		width: 50%;
+	}
+}
+@media screen and (max-width: 576px) {
+	.f-section-inner {
+		padding-left: 15px;
+		padding-right: 15px;
+		height: 800px;
+	}
+	
+	.h2-large {
+		font-size: 40px;
+		bottom: 0;
+		letter-spacing: inherit;
+	}
+	.f-content-p {
+		width: 100%;
+		word-break: normal;
+	}
+
+	.f-button {
+		width: 240px;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.f-button > a {
+		padding: 20px 50px;
+	}
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	8. Archive Page
@@ -249,7 +311,11 @@
 /* -------------------------------------------------------------------------------- */
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
-
+@media screen and (max-width: 576px) {
+	.description-table .flex-item {
+		width: 100%;
+	}
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	10. Blog
@@ -264,4 +330,25 @@
 /* -------------------------------------------------------------------------------- */
 /*	12. Footer
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+	.f-footer {
+		padding-top: 40px;
+	}
 
+	.footer-nav {
+		width: 80%;
+		margin-top: 50px;
+	}
+	.footer-nav > li {
+		width: 100%;
+		padding-top: 15px;
+		text-align: right;
+		font-size: 120%;
+		font-weight: 600;
+	}
+}
+@media screen and (max-width: 576px) {
+	.footer-nav > li {
+		text-align: left;
+	}
+}

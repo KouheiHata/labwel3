@@ -9,10 +9,10 @@
                             <span class="h2-large">Type A</span><br>
                             <span class="h2-small">type A</span>
                         </h2>
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/typea-work.jpg')); ?>" alt="A型｜海岸清掃" loading="lazy" class="f-section-image1 fadein">
                         <p class="f-content-p mt100 fadein">やりがいの見つかるA型</p>
                         <p class="f-content-p mt100 fadein">バリエーション豊富なお仕事だから、自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
                         <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#typea')); ?>" target="_blank">詳しくはこちら</a></button>
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/typea-work.jpg')); ?>" alt="A型｜海岸清掃" loading="lazy" class="f-section-image1 fadein">
                     </div>
                 </div>
             </section><!-- 第一セクション終了 -->
@@ -24,11 +24,11 @@
                             <span class="h2-large">Type B</span><br>
                             <span class="h2-small">type B</span>
                         </h2>
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/typeb-work.jpg')); ?>" alt="B型｜寺院清掃" loading="lazy" class="f-section-image2 fadein">
                         <p class="f-contenr-p mt100 fadein">自分の居場所が見つかるB型</p>
                         <p class="f-content-p mt100 fadein">みんなとお仕事するのが楽しくなる。</p>
                         <p class="f-contenr-p fadein">そんな働きやすい環境と楽しい人間関係づくりこだわりました。</p>
                         <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#typeb')); ?>" target="_blank">詳しくはこちら</a></button>
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/typeb-work.jpg')); ?>" alt="B型｜寺院清掃" loading="lazy" class="f-section-image2 fadein">
                     </div>
                 </div>
             </section><!-- 第2セクション終了 -->
@@ -43,10 +43,10 @@
                             LIFE Ipppo!和久野<br>
                             <span class="h2-small">group home</span>
                         </h2>
+                        <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="LIFE Ipppo和久野" loading="lazy" class="f-section-image1 fadein">
                         <p class="f-content-p mt100 fadein">自分の住む場所が見つかる『グループホーム』</p>
                         <p class="f-content-p mt100 fadein">住みやすい環境と安心を与えられる家づくりにこだわりました。</p>
                         <button class="f-button mt100 fadein"><a href="<?php echo esc_url(home_url('office-guide#grouphome')); ?>" target="_blank">詳しくはこちら</a></button>
-                        <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="LIFE Ipppo和久野" loading="lazy" class="f-section-image1 fadein">
                     </div>
                 </div>
             </section>
