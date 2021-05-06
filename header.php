@@ -84,18 +84,18 @@
                             </nav><!-- ナビゲーション終了 -->
                         </div>
                     </div>
-                    <div class="ham" id="ham">
+                    <div class="ham" id="ham"><!-- ハンバーガーメニュー　開始 -->
                         <span class="ham-line ham-line1"></span>
                         <span class="ham-line ham-line2"></span>
                         <span class="ham-line ham-line3"></span>
                     </div>
-                    <ul class="ham-nav">
+                    <ul class="ham-nav" id="ham_nav">
                         <li><a href="#">会社情報</a></li>
                         <li><a href="#">事務所のご案内</a></li>
                         <li><a href="#">お仕事の内容</a></li>
                         <li><a href="#">Facebook</a></li>
                         <li><a href="#">お問い合わせ</a></li>
-                    </ul>
+                    </ul><!-- ハンバーガーメニュー　終了 -->
 
                     <!-- <video src="<?php echo get_template_directory_uri(); ?>/images/earth.mp4" autoplay muted loop></video> -->
                     <img src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
