@@ -25,11 +25,11 @@
 
 1024pxのナビゲーションの幅変更、768pxでナビゲーションdisplay:none;ハンバーガーメニュー追加中
 
-5/6 ハンバーガーメニューのJavaScript,CSS実装<br>
+5/6 ハンバーガーメニューのJavaScript,CSS実装<br>header部分のCSS作成
 
 ### Todoリスト
 - [ ] 完成した映像をヘッダーへ
-- [ ] header,nav部分のcss作成
+- [x] header,nav部分のcss作成
 - [ ] front-pageのcss作成
 - [ ] page-infomationのcss作成
 - [ ] page-office-guideのcss作成
