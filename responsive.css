@@ -46,6 +46,9 @@
 	html {
 		font-size: 11px;
 	}
+	.col2 {
+		grid-column-end: span 1;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -249,6 +252,7 @@
 @media screen and (max-width: 768px) {
 	.h2-large {
 		font-size: 60px;
+		letter-spacing: inherit;
 		bottom: 0;
 	}
 
@@ -277,6 +281,26 @@
 
 	.f-work-gallery1 .flex-item {
 		width: 50%;
+	}
+	/* 事務所のご案内 */
+	.section-boxleft {
+		width: 100%;
+		float: none;
+	}
+	.section-boxright {
+		width: 100%;
+		float: none;
+	}
+	.section-boxright img {
+		position: static;
+	}
+	/* 事業一覧 */
+	.works-header {
+		min-height: 150px;
+	}
+
+	.works-heading {
+		top: 50px;
 	}
 }
 @media screen and (max-width: 576px) {
@@ -313,6 +337,10 @@
 	.f-work-gallery1 .flex-item .gallery-more {
 		font-size: 9px;
 	}
+	.section-boxleft {
+		grid-template-columns: auto;
+		justify-content: center;
+	}
 }
 
 /* -------------------------------------------------------------------------------- */
@@ -323,6 +351,13 @@
 /* -------------------------------------------------------------------------------- */
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+	.scroll-content-card {
+		margin-left: 40px;
+		margin-bottom: 40px;
+	}
+}
+
 @media screen and (max-width: 576px) {
 	.description-table .flex-item {
 		width: 100%;

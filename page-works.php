@@ -55,7 +55,7 @@ get_header(); ?>
                 </div>
             </div>
             <div class="d-xl-none d-md-block selectbox">
-                <select name=”service”>
+                <select name="service">
                     <option value=”#coast-cleaning”>海岸清掃</option>
                     <option value=”#waste-gathering”>戸別収集</option>
                     <option value=”#life-support”>高齢者生活支援</option>
