@@ -36,6 +36,10 @@
 	.mt100 {
 		margin-top: 50px;
 	}
+
+	.flex-box .lg__w50 {
+		width: 50%;
+	}
 }
 
 @media screen and (max-width: 576px) {
@@ -300,6 +304,14 @@
 	}
 	.f-button > a {
 		padding: 20px 50px;
+	}
+
+	.f-work-gallery1 .flex-item a h3 {
+		font-size: 1.25rem;
+	}
+
+	.f-work-gallery1 .flex-item .gallery-more {
+		font-size: 9px;
 	}
 }
 
