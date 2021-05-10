@@ -315,6 +315,10 @@
 		bottom: 0;
 		letter-spacing: inherit;
 	}
+	.h2-small {
+		bottom: -15px;
+		font-size: 8px;
+	}
 	.f-content-p {
 		width: 100%;
 		word-break: normal;
@@ -356,10 +360,32 @@
 		margin-left: 40px;
 		margin-bottom: 40px;
 	}
+
+	/* 事業一覧 */
+	.service-index {
+		justify-content: space-around;
+		grid-template-columns: 220px 220px;
+	}
 }
 
 @media screen and (max-width: 576px) {
+	/* 会社情報 */
 	.description-table .flex-item {
+		width: 100%;
+	}
+	/* 事業一覧 */
+	.service-index {
+		grid-template-columns: 220px;
+	}
+
+	.flex-item-text {
+		margin: 50px auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/* お問い合わせ */
+	input, textarea {
 		width: 100%;
 	}
 }

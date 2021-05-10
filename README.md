@@ -37,7 +37,7 @@ header部分のCSS作成
 
 selectボックスとページ内リンク、及びフェードインアニメーションの両立は困難な可能性有。設計の変更を考える
 
-お仕事の一覧の対応終了
+5/10事業一覧のレスポンシブ対応終了
 
 Todoリスト
 -[ ]完成した映像をヘッダーへ
@@ -46,4 +46,5 @@ Todoリスト
 -[x]front-pageのcss作成
 -[x]page-infomationのcss作成
 -[x]page-office-guideのcss作成
--[ ]page-worksのcss作成
+-[x]page-worksのcss作成
+-[x]page-contactのcss作成
