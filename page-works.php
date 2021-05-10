@@ -54,18 +54,7 @@ get_header(); ?>
                     <button class="index-btn"><a href="#cleaning2">特別清掃</a></button>
                 </div>
             </div>
-            <div class="d-xl-none d-md-block selectbox">
-                <select name=”service”>
-                    <option value=”#coast-cleaning”>海岸清掃</option>
-                    <option value=”#waste-gathering”>戸別収集</option>
-                    <option value=”#life-support”>高齢者生活支援</option>
-                    <option value=”#temple-clean”>寺院清掃</option>
-                    <option value=”#cleaning”>清掃・クリーニング</option>
-                    <option value=”#kelp-selling”>おぼろ昆布・加工販売</option>
-                    <option value=”#lunchbox”>お弁当・調理販売</option>
-                    <option value=”#cleaning2”>特別清掃</option>
-                </select>
-            </div>
+            
         </div>
     </section><!-- 第一セクション　終了 -->
     <section class="section-works">

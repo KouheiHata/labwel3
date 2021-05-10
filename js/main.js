@@ -15,11 +15,19 @@ $(window).scroll(function(){
 	});
 });
 
-//　透明＆不透明化処理
+// 透明＆不透明化処理
 $(window).scroll(function(){
 	if ($(window).scrollTop() <= 100) {
 		$('.nav-wrap').addClass('transparent');
 	} else {
 		$('.nav-wrap').removeClass('transparent');
 	}
+});
+
+// ハンバーガーメニュー開閉＆クラス追加
+const ham = document.getElementById('ham');
+const ham_nav = document.getElementById('ham_nav');
+ham.addEventListener('click', function() {
+	ham.classList.toggle('clicked');
+	ham_nav.classList.toggle('clicked');
 });

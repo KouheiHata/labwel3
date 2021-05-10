@@ -12,7 +12,7 @@ Template Name: お問い合わせページ
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2 class="f-section-h2">
-            お問い合せ
+            お問い合わせ
             <br />
             <span class="h2-small">Contact</span>
             </h2>
