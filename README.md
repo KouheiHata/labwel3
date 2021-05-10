@@ -41,11 +41,11 @@ selectボックスとページ内リンク、及びフェードインアニメ�
 
 Todoリスト
 
--[ ]完成した映像をヘッダーへ
- - [x]header,nav部分のcss作成
- - [x]footer部分のcss作成
- - [x]front-pageのcss作成
- - [x]page-infomationのcss作成
- - [x]page-office-guideのcss作成
- - [x]page-worksのcss作成
- - [x]page-contactのcss作成
+- [ ]完成した映像をヘッダーへ
+- [x]header,nav部分のcss作成
+- [x]footer部分のcss作成
+- [x]front-pageのcss作成
+- [x]page-infomationのcss作成
+- [x]page-office-guideのcss作成
+- [x]page-worksのcss作成
+- [x]page-contactのcss作成
