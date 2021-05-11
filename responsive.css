@@ -73,8 +73,16 @@
 /* -------------------------------------------------------------------------------- */
 /*	4. Header
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 990px) {
+	.logo {
+		width: 150px;
+	}
+}
+
 @media screen and (max-width: 768px) {
-	
+	.logo {
+		width: 150px;
+	}
 }
 @media screen and (max-width: 576px) {
 
@@ -115,22 +123,115 @@
 		width: calc(70vw / 50 * 40);
 	}
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 990px) {
 	.nav-top {
 		display: none;
 	}
+
+	nav {
+		height: 50px;
+	}
+	
 	/* ハンバーガーメニュー */
 	.ham {
 		display: block;
+		width: 40px;
+		height: 40px;
+		background: rgba(255, 255, 255, 0.8);
+		border-radius: 8px;
+		position: fixed;
+		top: 5px;
+		right: 40px;
+		z-index: 101;
+		transition: 0.5s ease-in-out all 0.2s;
+	}
+
+	.ham-line {
+		position: absolute;
+		left: 7px;
+		width: 26px;
+		height: 3px;
+		background-color: rgb(51, 51, 51);
+		border-radius: 4px;
+		transition: 0.5s ease-in-out all;
+	}
+
+	.ham-line1 {
+		top: 8px;
+	}
+
+	.ham-line2 {
+		top: 18px;
+	}
+
+	.ham-line3 {
+		top: 28px;
+	}
+
+	.clicked > .ham-line1 {
+		top: 20px;
+		transform: rotate(-45deg);
+	}
+
+	.clicked > .ham-line2 {
+		display: none;
+	}
+
+	.clicked > .ham-line3 {
+		top: 20px;
+		transform: rotate(45deg);
+	}
+
+	.ham-nav {
+		display: block;
+		font-size: 18px;
+		width: 100vw;
+		height: 100vh;
+		padding-top: 5%;
+		padding-left: 20%;
+		background-color: rgba(147, 149, 151, 0.8);
+		position: fixed;
+		right: 100%;
+		z-index: 100;
+		transition: 0.5s ease-in-out all;
+	}
+
+	.ham-nav.clicked {
+		right: 0;
+	}
+
+	.ham-nav > li {
+		font-weight: 700;
+		width: 60%;
+		margin-top: 20px;
+		padding-bottom: 10px;
+		border-bottom: 3px solid rgb(255, 255, 255);
+		text-indent: 1em;
+		text-shadow: 2px 2px 4px rgba(51, 51, 51, 0.4);
+	}
+	.ham-nav > li > a {
+		color: rgb(255, 255, 255);
+	}
+	.ham-nav > li > a:hover,
+	.ham-nav > li > a:active {
+		color: rgb(51, 51, 51);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/* nav {
+		height: 100px;
+	} */
+
+	/* ハンバーガーメニュー */
+	/* .ham {
+		display: block;
 		width: 60px;
 		height: 60px;
-		background: rgba(255, 255, 255, 0.8);
 		border-radius: 8px;
 		position: fixed;
 		top: 30px;
 		right: 40px;
-		z-index: 101;
-		transition: 0.5s ease-in-out all 0.2s;
 	}
 
 	.ham-line {
@@ -170,17 +271,11 @@
 	}
 
 	.ham-nav {
-		display: block;
 		font-size: 36px;
 		width: 100vw;
 		height: 100vh;
 		padding-top: 100px;
 		padding-left: 50px;
-		background-color: rgba(147, 149, 151, 0.8);
-		position: fixed;
-		right: 100%;
-		z-index: 100;
-		transition: 0.5s ease-in-out all;
 	}
 
 	.ham-nav.clicked {
@@ -188,27 +283,21 @@
 	}
 
 	.ham-nav > li {
-		font-weight: 700;
-		width: 60%;
 		margin-top: 50px;
 		padding-bottom: 20px;
-		border-bottom: 3px solid rgb(255, 255, 255);
-		text-indent: 1em;
-		text-shadow: 2px 2px 4px rgba(51, 51, 51, 0.4);
-	}
-	.ham-nav > li > a {
-		color: rgb(255, 255, 255);
-	}
-	.ham-nav > li > a:hover,
-	.ham-nav > li > a:active {
-		color: rgb(51, 51, 51);
-	}
+	} */
+	
 }
 
 @media screen and (max-width: 576px) {
+	nav {
+		height: 50px;
+	}
+
 	.ham {
 		width: 40px;
 		height: 40px;
+		top: 5px;
 		right: 30px;
 	}
 	.ham-line {
@@ -332,7 +421,7 @@
 		margin-right: auto;
 	}
 	.f-button > a {
-		padding: 20px 50px;
+		padding: 20px 55px;
 	}
 
 	.f-work-gallery1 .flex-item a h3 {
