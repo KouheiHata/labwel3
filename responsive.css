@@ -314,6 +314,7 @@
 		font-size: 40px;
 		bottom: 0;
 		letter-spacing: inherit;
+		word-break: keep-all;
 	}
 	.h2-small {
 		bottom: -15px;
@@ -342,6 +343,7 @@
 		font-size: 9px;
 	}
 	.section-boxleft {
+		min-height: auto;
 		grid-template-columns: auto;
 		justify-content: center;
 	}
@@ -373,9 +375,21 @@
 	.description-table .flex-item {
 		width: 100%;
 	}
+	.page-article-title::after {
+		display: none;
+	}
 	/* 事業一覧 */
 	.service-index {
 		grid-template-columns: 220px;
+		grid-template-rows: 70px;
+		grid-row-gap: 30px;
+	}
+
+	.index-btn a {
+		height: 70px;
+	}
+	.index-btn a::after {
+		top: 80%
 	}
 
 	.flex-item-text {
