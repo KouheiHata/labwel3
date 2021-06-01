@@ -274,8 +274,8 @@ section:nth-child(even) {
 }
 
 
-/* jquery フェードイン部分 */
-/* .fadein {
+jquery フェードイン部分
+.fadein {
     transition: 0.8s;
     transform: translate(0, 50px);
     opacity: 0;
@@ -284,7 +284,7 @@ section:nth-child(even) {
 .fadein.scrollin {
     opacity: 1;
     transform:translate(0, 0);
-} */
+}
 
 /*-------------------------------------------------------------
     2.header
