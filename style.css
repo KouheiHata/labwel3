@@ -274,7 +274,7 @@ section:nth-child(even) {
 }
 
 
-jquery フェードイン部分
+/* jquery フェードイン部分 */
 .fadein {
     transition: 0.8s;
     transform: translate(0, 50px);
