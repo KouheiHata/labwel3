@@ -136,7 +136,7 @@ get_header(); ?>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" alt="" loading="lazy">
             </div>
             <div class="flex-item flex-item-text fadein">
-                <p>国指定重要文化財「西福寺」や１３９５年開創の由緒と歴史的伝統ある「永平寺」の寺内外の定期清掃を行っております。</p>
+                <p>国指定重要文化財「西福寺」や１３９５年開創の由緒と歴史的伝統ある「永建寺」の寺内外の定期清掃を行っております。</p>
             </div>
         </div>
         <header class="works-header fadein">
