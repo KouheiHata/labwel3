@@ -12,12 +12,12 @@ Template Name: お問い合わせページ
     <div class="row">
         <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <h2 class="f-section-h2">
-            お問い合せ
+            お問い合わせ
             <br />
             <span class="h2-small">Contact</span>
             </h2>
             <div class="pt-5"></div>
-            <?php echo do_shortcode('[contact-form-7 id="386" title="LABWEL3_お問い合わせ"]'); ?>
+            <?php echo do_shortcode('[contact-form-7 id="14" title="お問い合わせ"]'); ?>
         </div>
    </div>
 </div>

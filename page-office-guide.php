@@ -26,16 +26,26 @@ get_header(); ?>
         <div class="container">
             <h2 id="typea" class="f-section-h2 fadein">
                 A型事業所
-                <span class="h2-large">Type A Welfare</span>
+                <span class="h2-large">Type A</span>
             </h2>
-            <div class="section-boxleft fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.png')); ?>" alt="ipppo" loading="lazy">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy" class="ml100">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/a-copy_03.png')); ?>" alt="やりがい見つかる「A型」" loading="lazy" class="mt50">
-                <p class="mt50">バリエーション豊富なお仕事内容だから自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
-            </div>
             <div class="section-boxright fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy" class="mt100">
+            </div>
+            <div class="section-boxleft grid-box fadein">
+                <div class="box-item box-item1 fadein">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/ipppo.png')); ?>" alt="ipppo" loading="lazy"><br><br>
+                    <a href="<?php echo esc_url(get_theme_file_uri('images/r2_ipppo.pdf')); ?>">令和２年度スコアシート及び<br>地域連携活動実施状況報告書</a>
+                </div>
+                <div class="box-item box-item2 fadein">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy"><br><br>
+                    <a href="<?php echo esc_url(get_theme_file_uri('images/r2_plus-ipppo.pdf')); ?>">令和２年度スコアシート及び<br>地域連携活動実施状況報告書</a>
+                </div>
+                <div class="box-item box-item3 col2 fadein">
+                    <img src="<?php echo esc_url(get_theme_file_uri('images/a-copy_03.png')); ?>" alt="やりがい見つかる「A型」" loading="lazy" class="mt50">
+                </div>
+                <div class="box-item box-item4 col2 fadein">
+                    <p class="mt50">バリエーション豊富なお仕事内容だから自分のやりがいにつながる得意なお仕事がきっと見つかります。</p>
+                </div>
             </div>
             <div class="clearfix"></div>
 
@@ -144,16 +154,16 @@ get_header(); ?>
         <div class="container">
             <h2 id="typeb" class="f-section-h2 fadein">
                 B型事業所
-                <span class="h2-large">Type B Welfare</span>
+                <span class="h2-large">Type B</span>
             </h2>
+            <div class="section-boxright fadein">
+                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
+            </div>
             <div class="section-boxleft fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/+ipppo.png')); ?>" alt="+ipppo" loading="lazy">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/b-copy_07.png')); ?>" alt="自分の居場所が見つかる「B型」" loading="lazy" class="mt50">
                 <p class="mt50">みんなと働くのが楽しくなる</p>
                 <p>そんな働きやすい環境と楽しい人間関係づくりにこだわりました。</p>
-            </div>
-            <div class="section-boxright fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/kelpslice.jpg')); ?>" alt="" loading="lazy">
             </div>
             <div class="clearfix"></div>
             <h2 class="page-article-title mt100 fadein">
@@ -253,11 +263,11 @@ get_header(); ?>
                 <span class="h2-large">Group Home</span>
             </h2>
             <h2 class="f-section-h2 fadein">LIFE Ipppo!和久野</h2>
-            <div class="section-boxleft fadein">
-                <p class="mt100">警備セキュリティをはじめ、夜間支援員などの安心して住むことが出来る環境づくりを目指しました。</p>
-            </div>
             <div class="section-boxright fadein">
                 <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="" loading="lazy">
+            </div>
+            <div class="section-boxleft fadein">
+                <p class="mt100">警備セキュリティをはじめ、夜間支援員などの安心して住むことが出来る環境づくりを目指しました。</p>
             </div>
             <div class="clearfix"></div>
             <h2 class="page-article-title mt100 fadein">

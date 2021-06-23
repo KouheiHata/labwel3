@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*---------------------------------------------------------------------------------
 
-	Theme Name: 
-	Description: 
+	Theme Name: Labwel3
+	Description: labewlのホームページのテーマ
 	Author: 
 	
 -----------------------------------------------------------------------------------
@@ -24,13 +24,36 @@
 /* -------------------------------------------------------------------------------- */
 /*	0. Document
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 1024px) {
+	
+}
 
-@media screen and (max-width: 575.98px) {}
-@media screen and (min-width: 576px) and (max-width: 767.98px) {}
-@media screen and (min-width: 768px) and (max-width: 991.98px) {}
-@media screen and (min-width: 992px) and (max-width: 1199.98px) {}
-@media screen and (min-width:1200px) {}
+@media screen and (max-width: 990px) {
+	
+}
 
+@media screen and (max-width: 768px) {
+	.mt100 {
+		margin-top: 50px;
+	}
+
+	.flex-box .lg__w50 {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	html {
+		font-size: 11px;
+	}
+	.col2 {
+		grid-column-end: span 1;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	1. Font
@@ -50,12 +73,262 @@
 /* -------------------------------------------------------------------------------- */
 /*	4. Header
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 990px) {
+	.logo {
+		width: 150px;
+	}
+}
 
+@media screen and (max-width: 768px) {
+	.logo {
+		width: 150px;
+	}
+}
+@media screen and (max-width: 576px) {
+
+	.logo {
+		width: 150px;
+	}
+
+	/* スクロール誘導 */
+	.angle-wrap {
+		top: 20px;
+	}
+	.angle {
+		width: 30px;
+		height: 30px;
+		bottom: 20px;
+	}
+	.angle-wrap p {
+		bottom: 40px;
+	}
+	@keyframes angle {
+		0% {
+			bottom: 20px;
+		}
+		50% {
+			bottom: 40px
+		}
+		100% {
+			bottom: 20px;
+		}
+	}
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	5. Menu Navigation
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 1024px) {
+	.nav-top {
+		width: calc(70vw / 50 * 40);
+	}
+}
+@media screen and (max-width: 990px) {
+	.nav-top {
+		display: none;
+	}
 
+	nav {
+		height: 50px;
+	}
+	
+	/* ハンバーガーメニュー */
+	.ham {
+		display: block;
+		width: 40px;
+		height: 40px;
+		background: rgba(255, 255, 255, 0.8);
+		border-radius: 8px;
+		position: fixed;
+		top: 5px;
+		right: 40px;
+		z-index: 101;
+		transition: 0.5s ease-in-out all 0.2s;
+	}
+
+	.ham-line {
+		position: absolute;
+		left: 7px;
+		width: 26px;
+		height: 3px;
+		background-color: rgb(51, 51, 51);
+		border-radius: 4px;
+		transition: 0.5s ease-in-out all;
+	}
+
+	.ham-line1 {
+		top: 8px;
+	}
+
+	.ham-line2 {
+		top: 18px;
+	}
+
+	.ham-line3 {
+		top: 28px;
+	}
+
+	.clicked > .ham-line1 {
+		top: 20px;
+		transform: rotate(-45deg);
+	}
+
+	.clicked > .ham-line2 {
+		display: none;
+	}
+
+	.clicked > .ham-line3 {
+		top: 20px;
+		transform: rotate(45deg);
+	}
+
+	.ham-nav {
+		display: block;
+		font-size: 18px;
+		width: 100vw;
+		height: 100vh;
+		padding-top: 5%;
+		padding-left: 20%;
+		background-color: rgba(147, 149, 151, 0.8);
+		position: fixed;
+		right: 100%;
+		z-index: 100;
+		transition: 0.5s ease-in-out all;
+	}
+
+	.ham-nav.clicked {
+		right: 0;
+	}
+
+	.ham-nav > li {
+		font-weight: 700;
+		width: 60%;
+		margin-top: 20px;
+		padding-bottom: 10px;
+		border-bottom: 3px solid rgb(255, 255, 255);
+		text-indent: 1em;
+		text-shadow: 2px 2px 4px rgba(51, 51, 51, 0.4);
+	}
+	.ham-nav > li > a {
+		color: rgb(255, 255, 255);
+	}
+	.ham-nav > li > a:hover,
+	.ham-nav > li > a:active {
+		color: rgb(51, 51, 51);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	/* nav {
+		height: 100px;
+	} */
+
+	/* ハンバーガーメニュー */
+	/* .ham {
+		display: block;
+		width: 60px;
+		height: 60px;
+		border-radius: 8px;
+		position: fixed;
+		top: 30px;
+		right: 40px;
+	}
+
+	.ham-line {
+		position: absolute;
+		left: 10px;
+		width: 40px;
+		height: 5px;
+		background-color: rgb(51, 51, 51);
+		border-radius: 4px;
+		transition: 0.5s ease-in-out all;
+	}
+
+	.ham-line1 {
+		top: 13px;
+	}
+
+	.ham-line2 {
+		top: 28px;
+	}
+
+	.ham-line3 {
+		top: 43px;
+	}
+
+	.clicked > .ham-line1 {
+		top: 30px;
+		transform: rotate(-45deg);
+	}
+
+	.clicked > .ham-line2 {
+		display: none;
+	}
+
+	.clicked > .ham-line3 {
+		top: 30px;
+		transform: rotate(45deg);
+	}
+
+	.ham-nav {
+		font-size: 36px;
+		width: 100vw;
+		height: 100vh;
+		padding-top: 100px;
+		padding-left: 50px;
+	}
+
+	.ham-nav.clicked {
+		right: 0;
+	}
+
+	.ham-nav > li {
+		margin-top: 50px;
+		padding-bottom: 20px;
+	} */
+	
+}
+
+@media screen and (max-width: 576px) {
+	nav {
+		height: 50px;
+	}
+
+	.ham {
+		width: 40px;
+		height: 40px;
+		top: 5px;
+		right: 30px;
+	}
+	.ham-line {
+		width: 30px;
+		height: 3px;
+		left: 5px;
+		border-radius: 2px;
+	}
+	.ham-line1 {
+		top: 8px;
+	}
+	.ham-line2 {
+		top: 18px;
+	}
+	.ham-line3 {
+		top: 28px;
+	}
+	.clicked > .ham-line1 {
+		top: 20px;
+	}
+	.clicked > .ham-line3 {
+		top: 20px;
+	}
+	.ham-nav {
+		font-size: 22px;
+	}
+	.ham-nav > li {
+		margin-top: 24px;
+		width: 70%;
+	}
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	6. Button
@@ -65,7 +338,105 @@
 /* -------------------------------------------------------------------------------- */
 /*	7. Top Page
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+	.h2-large {
+		font-size: 60px;
+		letter-spacing: inherit;
+		bottom: 0;
+	}
 
+	.f-section-inner {
+		width: 100%;
+		height: 950px;
+	}
+
+	.f-section-image1 {
+		position: static;
+		margin-top: 50px;
+	}
+
+	.f-section-inner2 {
+		margin-left: 0;
+	}
+
+	.f-section-image2 {
+		position: static;
+		margin-top: 50px;
+	}
+	/* 仕事の一覧 */
+	.f-work-gallery1 {
+		flex: 1 1 auto;
+	}
+
+	.f-work-gallery1 .flex-item {
+		width: 50%;
+	}
+	/* 事務所のご案内 */
+	.section-boxleft {
+		width: 100%;
+		float: none;
+	}
+	.section-boxright {
+		width: 100%;
+		float: none;
+	}
+	.section-boxright img {
+		position: static;
+	}
+	/* 事業一覧 */
+	.works-header {
+		min-height: 150px;
+	}
+
+	.works-heading {
+		top: 50px;
+	}
+}
+@media screen and (max-width: 576px) {
+	.f-section-inner {
+		padding-left: 15px;
+		padding-right: 15px;
+		height: 800px;
+	}
+	
+	.h2-large {
+		font-size: 40px;
+		bottom: 0;
+		letter-spacing: inherit;
+		word-break: keep-all;
+	}
+	.h2-small {
+		bottom: -15px;
+		font-size: 8px;
+	}
+	.f-content-p {
+		width: 100%;
+		word-break: normal;
+	}
+
+	.f-button {
+		width: 240px;
+		height: 50px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.f-button > a {
+		padding: 20px 55px;
+	}
+
+	.f-work-gallery1 .flex-item a h3 {
+		font-size: 1.25rem;
+	}
+
+	.f-work-gallery1 .flex-item .gallery-more {
+		font-size: 9px;
+	}
+	.section-boxleft {
+		min-height: auto;
+		grid-template-columns: auto;
+		justify-content: center;
+	}
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	8. Archive Page
@@ -75,7 +446,52 @@
 /* -------------------------------------------------------------------------------- */
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+	.scroll-content-card {
+		margin-left: 40px;
+		margin-bottom: 40px;
+	}
 
+	/* 事業一覧 */
+	.service-index {
+		justify-content: space-around;
+		grid-template-columns: 220px 220px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	/* 会社情報 */
+	.description-table .flex-item {
+		width: 100%;
+	}
+	.page-article-title::after {
+		display: none;
+	}
+	/* 事業一覧 */
+	.service-index {
+		grid-template-columns: 220px;
+		grid-template-rows: 70px;
+		grid-row-gap: 30px;
+	}
+
+	.index-btn a {
+		height: 70px;
+	}
+	.index-btn a::after {
+		top: 80%
+	}
+
+	.flex-item-text {
+		margin: 50px auto;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	/* お問い合わせ */
+	input, textarea {
+		width: 100%;
+	}
+}
 
 /* -------------------------------------------------------------------------------- */
 /*	10. Blog
@@ -90,4 +506,25 @@
 /* -------------------------------------------------------------------------------- */
 /*	12. Footer
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+	.f-footer {
+		padding-top: 40px;
+	}
 
+	.footer-nav {
+		width: 80%;
+		margin-top: 50px;
+	}
+	.footer-nav > li {
+		width: 100%;
+		padding-top: 15px;
+		text-align: right;
+		font-size: 120%;
+		font-weight: 600;
+	}
+}
+@media screen and (max-width: 576px) {
+	.footer-nav > li {
+		text-align: left;
+	}
+}

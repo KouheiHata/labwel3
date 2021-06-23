@@ -51,13 +51,13 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
     <?php wp_deregister_script('jquery'); ?>
-        
+
 </head>
 
 <body <?php body_class(); ?> ontouchstart="">
-<?php wp_head(); ?>
+    <?php wp_head(); ?>
 
-<div class="wrapper">
+    <div class="wrapper">
         <!-- wrapper start -->
 
         <header id="f-header" class="f-header">
@@ -70,21 +70,34 @@
                             <nav class="flex-box">
                                 <h1 class="logo">
                                     <a href="<?php echo esc_url(home_url('/')) ?>">
-                                    <img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABWEL" class="logo-normal">
-                                    <img src="<?php echo esc_url(get_theme_file_uri('images/logo_white.png')); ?>" alt="LABWEL" class="logo-white">
+                                        <img src="<?php echo esc_url(get_theme_file_uri('images/logo.png')); ?>" alt="LABWEL" class="logo-normal">
+                                        <img src="<?php echo esc_url(get_theme_file_uri('images/logo_white.png')); ?>" alt="LABWEL" class="logo-white">
                                     </a>
                                 </h1>
                                 <ul class="nav-top flex-box">
                                     <li><a href="<?php echo esc_url(home_url('information')); ?>" class="header-menu-item">会社情報</a></li>
                                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>" class="header-menu-item">事務所のご案内</a></li>
                                     <li><a href="<?php echo esc_url(home_url('works')); ?>" class="header-menu-item">お仕事の内容</a></li>
-                                    <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" class="header-menu-item">Facebook</a></li>
+                                    <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" rel="noopener" class="header-menu-item">Facebook</a></li>
                                     <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="contact-button">お問い合わせ</a></li>
                                 </ul>
-                            </nav>
+                            </nav><!-- ナビゲーション終了 -->
                         </div>
                     </div>
+                    <div class="ham" id="ham"><!-- ハンバーガーメニュー　開始 -->
+                        <span class="ham-line ham-line1"></span>
+                        <span class="ham-line ham-line2"></span>
+                        <span class="ham-line ham-line3"></span>
+                    </div>
+                    <ul class="ham-nav" id="ham_nav">
+                        <li><a href="<?php echo esc_url(home_url('information')); ?>">会社情報</a></li>
+                        <li><a href="<?php echo esc_url(home_url('office-guide')); ?>">事務所のご案内</a></li>
+                        <li><a href="<?php echo esc_url(home_url('works')); ?>">お仕事の内容</a></li>
+                        <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="<?php echo esc_url(home_url('contact')); ?>">お問い合わせ</a></li>
+                    </ul><!-- ハンバーガーメニュー　終了 -->
 
+                    <!-- <video src="<?php echo get_template_directory_uri(); ?>/images/earth.mp4" autoplay muted loop></video> -->
                     <img src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
                 </div>
             </div>

@@ -22,7 +22,8 @@ get_header(); ?>
     <?php endif; // 条件分岐終了 
     ?>
 
-    <section class="section"><!-- 第一セクション -->
+    <section class="section">
+        <!-- 第一セクション -->
 
         <div class="container">
             <h2 title class="page-title fadein">
@@ -32,60 +33,59 @@ get_header(); ?>
         </div>
 
         <div class="container">
-            <div class="row">
-                <div class="col-12 justify-content-center mt100">
-                    <h3 class="description-heading fadein">株式会社LABwelは、お仕事を通して自分の存在価値・やる気・新たな能力の 発見など、利用者さんの“成長に繋がる自立”を支援をする会社です。
-                    </h3>
+            <div class="col-12 justify-content-center mt100">
+                <h3 class="description-heading fadein">株式会社LABwelは、お仕事を通して自分の存在価値・やる気・新たな能力の 発見など、利用者さんの“成長に繋がる自立”を支援をする会社です。
+                </h3>
+            </div>
+
+            <h2 title class="page-article-title mt100 fadein 576space">
+                会社概要<br>
+                <span class="suffix">About Us</span>
+            </h2>
+
+            <div class="flex-box description-table">
+                <div class="flex-item">
+                    <table class="info-table fadein">
+                        <tbody>
+                            <tr>
+                                <td>会社名</td>
+                                <td>株式会社　LABwel</td>
+                            </tr>
+                            <tr>
+                                <td>代表者名</td>
+                                <td>津田一彦</td>
+                            </tr>
+                            <tr>
+                                <td>所在地</td>
+                                <td>福井県敦賀市公文名54-10-1</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-
-                <h2 title class="page-article-title mt100 fadein">
-                    会社概要<br>
-                    <span class="suffix">About Us</span>
-                </h2>
-
-                <div class="flex-box description-table">
-                    <div class="flex-item">
-                        <table class="info-table fadein">
-                            <tbody>
-                                <tr>
-                                    <td>会社名</td>
-                                    <td>株式会社　LABwel</td>
-                                </tr>
-                                <tr>
-                                    <td>代表者名</td>
-                                    <td>津田一彦</td>
-                                </tr>
-                                <tr>
-                                    <td>所在地</td>
-                                    <td>福井県敦賀市公文名54-10-1</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="flex-item">
-                        <table class="info-table fadein">
-                            <tbody>
-                                <tr>
-                                    <td>TEL</td>
-                                    <td>0770-47-6526</td>
-                                </tr>
-                                <tr>
-                                    <td>FAX</td>
-                                    <td>0770-47-6527</td>
-                                </tr>
-                                <tr>
-                                    <td>創業</td>
-                                    <td>平成27年7月21日</td>
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
+                <div class="flex-item">
+                    <table class="info-table fadein">
+                        <tbody>
+                            <tr>
+                                <td>TEL</td>
+                                <td>0770-47-6526</td>
+                            </tr>
+                            <tr>
+                                <td>FAX</td>
+                                <td>0770-47-6527</td>
+                            </tr>
+                            <tr>
+                                <td>創業</td>
+                                <td>平成27年7月21日</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
 
     </section><!-- 第一セクション　終了 -->
-    <section class="section"><!-- 第二セクション -->
+    <section class="section">
+        <!-- 第二セクション -->
 
         <div class="container">
             <h2 title class="page-article-title mb100 fadein">
@@ -100,7 +100,8 @@ get_header(); ?>
         <img src="<?php echo esc_url(get_theme_file_uri('images/gathering-photo.jpg')); ?>" alt="" class="mt100 fadein" loading="lazy">
     </section><!-- 第２セクション　終了 -->
 
-    <section class="section"><!-- 第3セクション -->
+    <section class="section">
+        <!-- 第3セクション -->
         <div class="container">
             <h2 class="page-article-title fadein">
                 これまでの沿革<br>
