@@ -79,6 +79,8 @@
                                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>" class="header-menu-item">事務所のご案内</a></li>
                                     <li><a href="<?php echo esc_url(home_url('works')); ?>" class="header-menu-item">お仕事の内容</a></li>
                                     <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" rel="noopener" class="header-menu-item">Facebook</a></li>
+									<li><a href="https://www.instagram.com/labwel_" target="_blank" rel="noopener" class="header-menu-item">Instagram</a></li>
+									
                                     <li><a href="<?php echo esc_url(home_url('contact')); ?>" class="contact-button">お問い合わせ</a></li>
                                 </ul>
                             </nav><!-- ナビゲーション終了 -->
@@ -93,7 +95,9 @@
                         <li><a href="<?php echo esc_url(home_url('information')); ?>">会社情報</a></li>
                         <li><a href="<?php echo esc_url(home_url('office-guide')); ?>">事務所のご案内</a></li>
                         <li><a href="<?php echo esc_url(home_url('works')); ?>">お仕事の内容</a></li>
-                        <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" rel="noopener">Facebook</a></li>
+                        <li><a href="https://www.facebook.com/labwel.co.jp" target="_blank" rel="noopener">Facebook</a></li> 
+						<li><a href="https://www.instagram.com/labwel_" target="_blank" rel="noopener">Instagram</a></li>
+						
                         <li><a href="<?php echo esc_url(home_url('contact')); ?>">お問い合わせ</a></li>
                     </ul><!-- ハンバーガーメニュー　終了 -->
 

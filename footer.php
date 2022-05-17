@@ -13,6 +13,7 @@
                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>">事務所のご案内</a></li>
                     <li><a href="<?php echo esc_url(home_url('works')); ?>">お仕事の内容</a></li>
                     <li><a href="https://www.facebook.com/labwel.co.jp">Facebook</a></li>
+					<li><a href="https://www.instagram.com/labwel_">Instagram</a></li>
                     <li><a href="<?php echo esc_url(home_url('contact')); ?>">お問い合わせ</a></li>
                 </ul>
             </div>
