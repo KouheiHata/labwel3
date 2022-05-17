@@ -1,8 +1,3 @@
-// フェードインとスクロールの連携
-$(function() {
-	$('.side-scroll-content').mycus_hScroll(60); // カッコ内の数字でスクロール量を調節できます。
-});
-
 // フェードインアニメーション
 $(window).scroll(function(){
 	$('.fadein').each(function(){
@@ -31,3 +26,17 @@ ham.addEventListener('click', function() {
 	ham.classList.toggle('clicked');
 	ham_nav.classList.toggle('clicked');
 });
+
+$(function(){ 
+    var pos;
+    $(".ham").on('click',function(){    
+        if( $('body').hasClass('fixed-body') ) {
+            $("body").removeClass("fixed-body").css({'top': 0});
+            window.scrollTo(0, pos);
+        } else {
+            pos = $(window).scrollTop();
+            $("body").addClass("fixed-body").css({'top': -pos});
+        }
+});    
+});
+

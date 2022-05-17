@@ -475,7 +475,12 @@ nav {
     color: rgb(51, 51, 51);
     background-color: rgb(255, 255, 255);
 }
-
+.fixed-body {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow-x: visible !important;
+}
 /*-------------------------------------------------------------
     4.front-page
 -------------------------------------------------------------*/
