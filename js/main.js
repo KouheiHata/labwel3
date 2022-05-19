@@ -40,3 +40,13 @@ $(function(){
 });    
 });
 
+// スマホ=>PCレイアウト切り替え時スクロール禁止を解除
+$(window).resize(function(){
+	if( !window.matchMedia("(max-width: 989.98px)").matches ){
+		if( $('body').hasClass('fixed-body') ) {
+			$("body").removeClass("fixed-body").css({'top': 0});
+			$("#ham").removeClass('clicked');
+			$("#ham_nav").removeClass('clicked');
+		}
+	}
+});
