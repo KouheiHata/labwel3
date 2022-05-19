@@ -198,6 +198,7 @@
 
 	.ham-nav.clicked {
 		right: 0;
+        bottom: 0;
 	}
 
 	.ham-nav > li {
