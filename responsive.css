@@ -405,6 +405,12 @@
 		bottom: 0;
 		letter-spacing: inherit;
 		word-break: keep-all;
+		width: 100%;
+	}
+	.consultation .h2-large{
+		font-size: 32px;
+		bottom: 5px;
+		text-align: start;
 	}
 	.h2-small {
 		bottom: -15px;
@@ -447,6 +453,21 @@
 /* -------------------------------------------------------------------------------- */
 /*	9. Single Page
 /* -------------------------------------------------------------------------------- */
+@media screen and (max-width: 1024px) {
+	/* 事務所のご案内 */
+	#Consultation_office .h2-large{
+		font-size: 70px;
+		bottom: -10px;
+	}
+}
+
+@media screen and (max-width: 990px) {
+	/* 事務所のご案内 */
+	#Consultation_office .h2-large{
+		letter-spacing: 0;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	.scroll-content-card {
 		margin-left: 40px;
@@ -457,6 +478,12 @@
 	.service-index {
 		justify-content: space-around;
 		grid-template-columns: 220px 220px;
+	}
+
+	/* 事務所のご案内 */
+	#Consultation_office .h2-large{
+		font-size: 50px;
+		bottom: 5px;
 	}
 }
 
@@ -491,6 +518,12 @@
 	/* お問い合わせ */
 	input, textarea {
 		width: 100%;
+	}
+
+	/* 事務所のご案内 */
+	#Consultation_office .h2-large{
+		font-size: 32px;
+		bottom: 10px;
 	}
 }
 

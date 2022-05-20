@@ -325,19 +325,18 @@ get_header(); ?>
     </section>
 
 	<!-- 相談支援セクション -->
-	<!--
+	
     <section class="section">
         <div class="container">
-            <h2 id="grouphome" class="f-section-h2 fadein">
-                共同生活援助（グループホーム）
-                <span class="h2-large">Group Home</span>
+            <h2 id="Consultation_office" class="f-section-h2 fadein">
+			指定特定相談支援事業所<span class="h2-large">Consultation office</span>
             </h2>
-            <h2 class="f-section-h2 fadein">LIFE Ipppo!和久野</h2>
+            <h2 class="f-section-h2 fadein">らぼうぇる</h2>
             <div class="section-boxright fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/grouphome-image.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/05/464fe7a43049d43c9bc09d40ceddba64.jpg" alt="" loading="lazy">
             </div>
             <div class="section-boxleft fadein">
-                <p class="mt100">警備セキュリティをはじめ、夜間支援員などの安心して住むことが出来る環境づくりを目指しました。</p>
+                <p class="mt100">障害のある方とそのご家族等のための地域で安心して暮らせるための相談窓口です。</p>
             </div>
             <div class="clearfix"></div>
             <h2 class="page-article-title mt100 fadein">
@@ -346,38 +345,36 @@ get_header(); ?>
         </div>
         <ul class="side-scroll-content mt40 fadein">
             <li class="scroll-content-card">
-                <p class="content-card-title">1.グループホームへのご見学</p>
+				<p class="content-card-title">1.サービスの申請</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam1.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
-                    <p>窓口に連絡を入れてもらい、ご都合の良いの良い日時に見学、または入居相談に来て頂きます。</p>
+					<p>市(地域福祉課)に使いたいサービスの申請を行います。</p>
                 </div>
             </li>
             <li class="scroll-content-card">
-                <p class="content-card-title">2.ご入居の相談</p>
+				<p class="content-card-title">2.計画の作成</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam5.jpg')); ?>" alt="" loading="lazy">
-                <div class="card-content-inner">
-                    <p>入居相談を通して入居するための要件や入居後の生活設計を一緒に考えていきます。</p>
+                <div class="card-content-inner" style="margin-top: 30px;">
+					<p>本人・家族等の希望や本人の障害支援区分等をふまえながら、本人・家族等と相談事業所が話し合って「サービス等利用計画(障害児支援利用計画)」を作成します。</p>
                 </div>
             </li>
             <li class="scroll-content-card">
-                <p class="content-card-title">3.関係各所へのご利用手続き</p>
+				<p class="content-card-title">3.契約</p>
                 <img src="<?php echo esc_url(get_theme_file_uri('images/exam4.jpg')); ?>" alt="" loading="lazy">
                 <div class="card-content-inner">
-                    <p>各市町や、相談支援事業者などと連絡を取り受給者証発行の手続きを行います。</p>
+					<p>サービスを受ける障害福祉事業所と契約し、サービスの利用が開始となります。</p>
                 </div>
             </li>
         </ul>
-<div class="container">
-            <h3 class="page-article-title mt100 fadein scrollin">計画相談支援「行動障害支援体制加算」「精神障害者支援体制加算」について</h3>
-            <div class="row justify-content-center">
-                <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 mt40">
-    <p>平成３０年度障害福祉サービス等報酬改定により、計画相談支援及び障害児相談支援について、さらなる質の向上を目指すための見直しが行われました。 このことに伴い新設されました「精神障害者支援体制加算」の対象となる研修を修了した相談支援専門員を配置しております。</p>
-<div class="border border-dark px-3">
-    <h4>精神障害者支援体制加算</h4>
-    <p>精神科病院等に入院する者及び地域において単身生活等をする精神障害者に対して、地域移行支援や地域定着支援のマネジメントを含めた適切な計画相談支援等を実施するために、定められた研修を修了し、専門的な知識及び支援技術を持つ相談支援専門員を事業所に配置する。</p></div>
-    <p>１．体制加算を算定するにあたって要件となる受講済み研修<br>研修名<br>令和２年12月４日<br>福井県精神保健福祉従事者研修会（現任）<br>２．研修を修了した者<br>氏名：原田 美文<br>職種：相談支援専門員</p>
-</div>
-            </div>
+        <div class="container">
+                    <h3 class="page-article-title mt100 fadein scrollin">計画相談支援「行動障害支援体制加算」「精神障害者支援体制加算」について</h3>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 mt40">
+            <p>平成３０年度障害福祉サービス等報酬改定により、計画相談支援及び障害児相談支援について、さらなる質の向上を目指すための見直しが行われました。 このことに伴い新設されました「精神障害者支援体制加算」の対象となる研修を修了した相談支援専門員を配置しております。</p>
+        <div class="border border-dark px-3">
+            <h4>精神障害者支援体制加算</h4>
+            <p>精神科病院等に入院する者及び地域において単身生活等をする精神障害者に対して、地域移行支援や地域定着支援のマネジメントを含めた適切な計画相談支援等を実施するために、定められた研修を修了し、専門的な知識及び支援技術を持つ相談支援専門員を事業所に配置する。</p></div>
+            <p>１．体制加算を算定するにあたって要件となる受講済み研修<br>研修名<br>令和２年12月４日<br>福井県精神保健福祉従事者研修会（現任）<br>２．研修を修了した者<br>氏名：原田 美文<br>職種：相談支援専門員</p>
         </div>
         <div class="container">
             <h2 class="page-article-title mt100 fadein">所在地・連絡先</h2>
@@ -385,16 +382,22 @@ get_header(); ?>
                 <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
                     <table class="office-address mt50 fadein">
                         <thead>
-                            <tr><th colspan="2">LIFE Ipppo!和久野</th></tr>
+                            <tr>
+                                <th colspan="2">指定特定相談事業所らぼうぇる</th>
+                            </tr>
                         </thead>
                         <tbody>
                             <tr>
                                 <td>住所</td>
-                                <td>福井県敦賀市和久野2号東河原17-3</td>
+                                <td>福井県敦賀市公文名54-10-1</td>
                             </tr>
                             <tr>
                                 <td>TEL</td>
-                                <td>0770-47-6964</td>
+                                <td>0770-47-6526</td>
+                            </tr>
+                            <tr>
+                                <td>FAX</td>
+                                <td>0770-47-6527</td>
                             </tr>
                         </tbody>
                     </table>
@@ -403,7 +406,7 @@ get_header(); ?>
             </div>
         </div>
     </section>
-	-->
+	
 	<!-- 相談支援セクションここまで -->
 
 </main><!-- main end -->
