@@ -383,7 +383,7 @@ get_header(); ?>
                     <table class="office-address mt50 fadein">
                         <thead>
                             <tr>
-                                <th colspan="2">指定特定相談事業所らぼうぇる</th>
+                                <th colspan="2">指定特定相談支援事業所らぼうぇる</th>
                             </tr>
                         </thead>
                         <tbody>

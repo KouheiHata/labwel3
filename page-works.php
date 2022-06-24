@@ -44,15 +44,17 @@ get_header(); ?>
                 <div class="box-item box-item5">
                     <button class="index-btn"><a href="#cleaning">清掃・クリーニング</a></button>
                 </div>
+				<!--
                 <div class="box-item box-item6">
                     <button class="index-btn"><a href="#kelp-selling">おぼろ昆布・加工販売</a></button>
                 </div>
+-->
                 <div class="box-item box-item7">
                     <button class="index-btn"><a href="#lunchbox">お弁当・調理販売</a></button>
                 </div>
                 <div class="box-item box-item8">
                     <button class="index-btn"><a href="#cleaning2">特別清掃</a></button>
-                </div>
+				</div>
             </div>
             
         </div>
@@ -68,7 +70,7 @@ get_header(); ?>
         </header>
         <div class="flex-box works-gallery">
             <div class="flex-item flex-item-img fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/coast-clean1.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/05/S__2818103.jpg" alt="" loading="lazy">
             </div>
             <div class="flex-item flex-item-text fadein">
                 <p>敦賀市認可のもと年間を通して車浦地田を中心に海岸清掃をしております。</p>
@@ -128,12 +130,12 @@ get_header(); ?>
                 <p>国指定重要文化財「西福寺」や１３９５年開創の由緒と歴史的伝統ある「永建寺」の寺内外の定期清掃を行っております。</p>
             </div>
             <div class="flex-item flex-item-img fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/06/matusima.jpg" alt="" loading="lazy">
             </div>
         </div>
         <div class="flex-box works-gallery d-xl-none d-md-flex">
             <div class="flex-item flex-item-img fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/temple-clean.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/06/matusima.jpg" alt="" loading="lazy">
             </div>
             <div class="flex-item flex-item-text fadein">
                 <p>国指定重要文化財「西福寺」や１３９５年開創の由緒と歴史的伝統ある「永建寺」の寺内外の定期清掃を行っております。</p>
@@ -149,16 +151,17 @@ get_header(); ?>
         </header>
         <div class="flex-box works-gallery">
             <div class="flex-item flex-item-img fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/06/senn.jpg" alt="" loading="lazy">
             </div>
             <div class="flex-item flex-item-text fadein">
                 <p>敦賀市の病院で働く、医師看護士さんのタオルを回収し、洗濯・クリーニングしております。</p>
             </div>
         </div>
+		<!--
         <header class="works-header fadein">
             <div class="container">
                 <h2 class="works-heading fadein" id="kelp-selling">
-                    おぼろ昆布・加工販売<br>
+                    おぼろ昆布・加工販売<br>
                     <span class="h2-small">KELP SELLING</span>
                 </h2>
             </div>
@@ -179,6 +182,7 @@ get_header(); ?>
                 <p>北前船で知られる北海道の真昆布を、LABwelの昆布かき職人が真心を込めて加工し、販売しています。</p>
             </div>
         </div>
+-->
         <header class="works-header fadein">
             <div class="container">
                 <h2 class="works-heading fadein" id="lunchbox">
@@ -189,7 +193,7 @@ get_header(); ?>
         </header>
         <div class="flex-box works-gallery">
             <div class="flex-item flex-item-img fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/lunchbox.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/06/fb53e8fd9a66cfacc82a3c1b9b927db0.jpg" alt="" loading="lazy">
             </div>
             <div class="flex-item flex-item-text fadein">
                 <p>LABwelの調理のプロがお客様のご要望に合わせてお弁当を調理、販売しております。お弁当の内容や価格などもご相談承ります。</p>
@@ -208,12 +212,12 @@ get_header(); ?>
                 <p>会社の駐車場の除草作業、一般家庭のお庭の草むしり・剪定作業など特殊な清掃も行っております。</p>
             </div>
             <div class="flex-item flex-item-img fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning2.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/05/S__24084504.jpg" alt="" loading="lazy">
             </div>
         </div>
         <div class="flex-box works-gallery d-xl-none d-md-flex">
             <div class="flex-item flex-item-img fadein">
-                <img src="<?php echo esc_url(get_theme_file_uri('images/cleaning2.jpg')); ?>" alt="" loading="lazy">
+                <img src="https://labwel.jp/wp-content/uploads/2022/05/S__24084504.jpg" alt="" loading="lazy">
             </div>
             <div class="flex-item flex-item-text fadein">
                 <p>会社の駐車場の除草作業、一般家庭のお庭の草むしり・剪定作業など特殊な清掃も行っております。</p>

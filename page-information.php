@@ -112,18 +112,34 @@ get_header(); ?>
                     <table class="info-table">
                         <tbody>
                             <tr>
-                                <td>平成28年7月</td>
+                                <td>平成27年7月</td>
                                 <td>株式会社　LABwel　設立</td>
                             </tr>
                             <tr>
                                 <td>同年</td>
-                                <td>事業所　+ipppo　設立</td>
+                                <td>事業所　Ipppo!　設立</td>
                             </tr>
                             <tr>
+							    <td>平成28年7月</td>
+                                <td>事業所　+Ipppo!　設立</td>
+							</tr>
+							<tr>
                                 <td>令和元年</td>
-                                <td>事業所　+ipppoにてB型事業所開始</td>
+                                <td>事業所　+Ipppo!にてB型事業所開始</td>
                             </tr>
-                        </tbody>
+							<tr>
+							    <td>令和2年10月</td>
+                                <td>事業所　Be Ipppo!　設立</td>
+							</tr>
+							<tr>
+							    <td>令和3年2月</td>
+                                <td>共同生活援助(グループホーム) LIFE Ipppo!和久野　開所</td>
+							</tr>
+							<tr>
+							    <td>令和4年1月</td>
+                                <td>指定特定相談支援事業所 らぼうぇる　開所</td>
+							</tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
