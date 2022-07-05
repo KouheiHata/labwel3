@@ -398,12 +398,13 @@ nav {
 
 .nav-top {
     font-size: 12px;
-    width: calc(50vw / 36 * 30);
     justify-content: space-between;
     align-content: center;
     align-items: center;
 }
-
+.nav-top>li{
+    margin-left: 10px;
+}
 
 .nav-top > li > a {
     color: #333333;
@@ -1054,7 +1055,10 @@ section.f-news{
 
 .footer-nav {
     font-size: 12px;
-    width: calc(50vw / 36 * 26);
+}
+
+.footer-nav>li {
+    margin-left: 10px;
 }
 
 .footer-nav > li > a {

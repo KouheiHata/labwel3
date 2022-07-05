@@ -104,12 +104,12 @@
                     </ul><!-- ハンバーガーメニュー　終了 -->
 
             <?php if( is_single() || is_archive() ) : ?>
-                        <img class="small-header" src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="">
+                        <img class="small-header header-img" src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="">
                 </div>
             </div>
             <?php else : ?>
                     <!-- <video src="<?php echo get_template_directory_uri(); ?>/images/earth.mp4" autoplay muted loop></video> -->
-                    <img src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
+                    <img class="header-img" src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
                 </div>
             </div>
             <div class="angle-wrap">
