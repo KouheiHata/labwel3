@@ -75,6 +75,7 @@
                                     </a>
                                 </h1>
                                 <ul class="nav-top flex-box">
+                                    <li><a href="<?php echo esc_url(home_url('archives/post')); ?>" class="header-menu-item">最新情報</a></li>
                                     <li><a href="<?php echo esc_url(home_url('information')); ?>" class="header-menu-item">会社情報</a></li>
                                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>" class="header-menu-item">事務所のご案内</a></li>
                                     <li><a href="<?php echo esc_url(home_url('works')); ?>" class="header-menu-item">お仕事の内容</a></li>
@@ -92,6 +93,7 @@
                         <span class="ham-line ham-line3"></span>
                     </div>
                     <ul class="ham-nav" id="ham_nav">
+                        <li><a href="<?php echo esc_url(home_url('archives/post')); ?>">最新情報</a></li>
                         <li><a href="<?php echo esc_url(home_url('information')); ?>">会社情報</a></li>
                         <li><a href="<?php echo esc_url(home_url('office-guide')); ?>">事務所のご案内</a></li>
                         <li><a href="<?php echo esc_url(home_url('works')); ?>">お仕事の内容</a></li>
@@ -101,6 +103,11 @@
                         <li><a href="<?php echo esc_url(home_url('contact')); ?>">お問い合わせ</a></li>
                     </ul><!-- ハンバーガーメニュー　終了 -->
 
+            <?php if( is_single() || is_archive() ) : ?>
+                        <img class="small-header" src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="">
+                </div>
+            </div>
+            <?php else : ?>
                     <!-- <video src="<?php echo get_template_directory_uri(); ?>/images/earth.mp4" autoplay muted loop></video> -->
                     <img src="<?php echo esc_url(get_theme_file_uri('images/main-slide1.jpg')); ?>" alt="メインイメージ｜海岸清掃" loading="lazy">
                 </div>
@@ -109,4 +116,5 @@
                 <p><small>scroll</small></p>
                 <div class="angle"></div>
             </div>
+            <?php endif; ?>
         </header><!-- header end -->

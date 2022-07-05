@@ -1,6 +1,37 @@
         <?php get_header(); ?>
         <main id="f-main" class="f-main">
             <!-- main start▼ -->
+            <section class="f-news mx-4 mx-lg-auto">
+                <header>
+                    <h4 class="text-center my-5 py-3">最新情報</h4>
+                </header>
+                <div>
+                    <?php
+                    $args = array(
+                        'post_type' => 'post',
+                        'post_status' => 'publish',
+                        'posts_per_page' => 5,
+                    );
+                    $the_query = new WP_Query($args);
+                    if( $the_query->have_posts()) : ?>
+                    <ul class="news-list">
+                        <?php while($the_query->have_posts()) : $the_query->the_post(); ?>
+                        <li class="list-item py-3">
+                            <a href="<?php the_permalink(); ?>">
+                                <span class="post-date d-block d-md-inline pr-lg-5"><?php the_time('Y.m.d'); ?></span>
+                                <span class="post-title d-block d-md-inline ml-md-5 pl-lg-5"><?php the_title(); ?></span>
+                            </a>
+                        </li>
+                        <?php endwhile; ?>
+                    </ul>
+                    <div class="news-more">
+                        <span>もっとみる</span>
+                        <a href="<?php echo esc_url(home_url('/archives/post')); ?>"></a>
+                    </div>
+                    <?php endif;
+                        wp_reset_postdata(); ?>
+                </div>
+            </section>
             <section class="f-section">
                 <div class="container">
                     <div class="f-section-inner fadein">

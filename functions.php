@@ -55,3 +55,20 @@ function enqueue_scripts() {
     wp_enqueue_script('main', get_template_directory_uri().'/js/main.js', array(), '', true);
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_scripts' );
+
+// 投稿のアーカイブページを作成する
+function post_has_archive($args, $post_type)
+{
+    if ($post_type === 'post') {
+        $slug = 'post'; // 任意のスラッグ名
+        $args['labels'] = array(
+            'name' => '最新情報'    // 管理画面に表示するラベル
+        );
+        $args['has_archive'] = $slug;
+        $args['rewrite'] = array(
+            'slug' => $slug,
+        );
+    }
+    return $args;
+}
+add_filter('register_post_type_args', 'post_has_archive', 10, 2);

@@ -9,6 +9,7 @@
             </div>
             <div class="flex-item">
                 <ul class="flex-box footer-nav">
+                    <li><a href="<?php echo esc_url(home_url('archives/post')); ?>">最新情報</a></li>
                     <li><a href="<?php echo esc_url(home_url('information')); ?>">会社情報</a></li>
                     <li><a href="<?php echo esc_url(home_url('office-guide')); ?>">事務所のご案内</a></li>
                     <li><a href="<?php echo esc_url(home_url('works')); ?>">お仕事の内容</a></li>

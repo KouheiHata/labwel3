@@ -360,6 +360,13 @@ video {
     left: 42%;
 }
 
+.small-header{
+    width: 100%;
+    height: 101px;
+    object-fit: cover;
+    object-position: 0 0;
+}
+
 /*-------------------------------------------------------------
     3.navigation
 -------------------------------------------------------------*/
@@ -634,6 +641,48 @@ section:last-child {
     position:absolute;
     z-index: 2;
     bottom: 16px;
+}
+
+/* 最新情報 */
+section.f-news{
+    max-width: 880px;
+    background-color: #FFF;
+}
+.f-news a{
+    color: #000;
+}
+.news-list .list-item{
+    border-top: solid 1px #707070;
+}
+.news-list .list-item:last-child{
+    border-bottom: solid 1px #707070;
+}
+
+.f-news .news-more{
+    position: relative;
+    width: 152px;
+    margin-right: 5px;
+    margin-left: auto;
+    margin-top: 37px;
+    margin-bottom: 76px;
+}
+.f-news .news-more a{
+    position: absolute;
+    top:0; left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.f-news .news-more::after{
+    content: "";
+    position: absolute;
+    bottom: 0; right: 0;
+    width: 100%;
+    height: 12px;
+    transform: skewX(20deg);
+    border-right: 2px solid #000;
+    border-bottom: 2px solid #000;
+    z-index: 0;
 }
 
 
@@ -922,6 +971,72 @@ section:last-child {
     7.お問い合わせ
 -------------------------------------------------------------*/
 
+/*-------------------------------------------------------------
+    8.single
+-------------------------------------------------------------*/
+.blog-wrapper{
+    max-width: 880px;
+}
+.blog-wrapper article{
+    border-bottom: solid 4px #D5D5D5;
+}
+.blog-wrapper article header{
+    border-bottom: solid 4px #D5D5D5;
+}
+.blog-wrapper .pagination-wrapper a{
+    color: #000;
+}
+/*-------------------------------------------------------------
+    8.archive
+-------------------------------------------------------------*/
+.archive-wrapper{
+    max-width: 880px;
+}
+.archive-wrapper a{
+    color: #000;
+}
+
+/* ページネーション */
+.archive-wrapper nav.pagination{
+    height: auto;
+}
+.archive-wrapper .pagination .nav-links{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.archive-wrapper .pagination .nav-links .page-numbers.prev{
+    /* 前へボタンは左端 */
+    margin-right: auto;
+    margin-left: 0;
+}
+.archive-wrapper .pagination .nav-links .page-numbers:first-child:not(.prev){
+    /* 前へボタンがないときは最初の番号の左に余白 */
+    margin-left: auto;
+}
+.archive-wrapper .pagination .nav-links .page-numbers{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+.archive-wrapper .pagination .nav-links .page-numbers:last-child:not(.next){
+    /* 次へボタンがないときは最後の番号の右に余白 */
+    margin-right: auto;
+}
+.archive-wrapper .pagination .nav-links .page-numbers.next{
+    /* 次へボタンは右端 */
+    margin-left: auto;
+    margin-right: 0;
+}
+.archive-wrapper .pagination .nav-links .page-numbers.current{
+    /* 現在の番号は丸で囲む */
+    width: 28px;
+    height: 28px;
+    margin: 0;
+    border-radius: 50%;
+    background-color: #D9D9D9;
+}
 /*-------------------------------------------------------------
     X.footer
 -------------------------------------------------------------*/
