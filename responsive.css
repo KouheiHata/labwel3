@@ -536,6 +536,10 @@
 	.blog-wrapper .blog-content{
 		font-size: 1.3rem;
 	}
+	.blog-wrapper .pagination-wrapper .next-link,
+	.blog-wrapper .pagination-wrapper .previous-link{
+		font-size: 1.3rem;
+	}
 }
 
 /* -------------------------------------------------------------------------------- */
