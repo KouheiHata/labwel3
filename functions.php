@@ -25,6 +25,9 @@ function custom_theme_setup() {
 }
 add_action( 'after_setup_theme', 'custom_theme_setup' );
 
+// wp_head()の出力からWPのバージョン表記を削除
+remove_action('wp_head', 'wp_generator');
+
 //ウィジェットエリアの登録 
 function my_theme_widgets_init() {
     register_sidebar( array(
